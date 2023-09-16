@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Our Products | Nizami Sevindi</title>
+</head>
+<body>
+
+    <!-------------------------------------------- HEADER SECTION -->
+    <header class="header" >
+        <a href="#" class="logo">
+            <img src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="./">home</a>
+            <a href="./about.html">about</a>
+            <a href="./chatbot.html" >chatbot</a>
+            <a href="./model"  class="active">Form</a>
+            <a href="./process_image">OCR</a>
+            <a href="./about_trees">Trees</a>
+            <a href="./lrp">LRP</a>
+            <a href="./review.html">review</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">blog</a>
+        </nav>
+    
+    </header>
+    <!-- -------------------------------------------HEADER SECTION -->
+  <!-- -------------------------------------------PRODUCTS SECTION -->
+  <section class="products" id="products">
+    <h1 class="heading">Decision Tree Model </h1> 
+</section>
+<!-- -------------------------------------------PRODUCTS SECTION -->
+<section>
+    <div class="form-container">
+        <h1>Enter the values</h1>
+        <form method="post">
+            {% for attribute_name in attribute_names %}
+            <div class="form-group">
+                <label for="{{ attribute_name }}">{{ attribute_name }}:</label>
+                <input type="number" step="any" name="{{ attribute_name }}" id="{{ attribute_name }}" class="form-control" required>
+            </div>
+            {% endfor %}
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Detect</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- -------------------------------------------FOOTER SECTION -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn btn-primary">search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+        </div>
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#chatbot">chatbot</a>
+            <a href="#model">model</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blog">blog</a>
+        </div>
+        <div class="credit">
+            creaated by <span>Nizami Sevindi</span> | all rights reserved!
+        </div>
+    </section>
+    <!-- -------------------------------------------FOOTER SECTION -->
+
+<script src="./script.js"></script>
+
+</body>
+</html>

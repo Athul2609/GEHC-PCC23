@@ -1,0 +1,1897 @@
+
+Input: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0. 0. 0. 0. 0.]]
+
+tree no.1
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.13164999336004257
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.13164999336004257
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.5483999848365784
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.5483999848365784
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 869.0
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 869.0
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.2
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.42045000195503235
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.42045000195503235
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.15839999914169312
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.15839999914169312
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 869.25
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 869.25
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.13580000400543213
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.13580000400543213
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 15.865000247955322
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 15.865000247955322
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 33.26999855041504
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 33.26999855041504
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.3
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14594999700784683
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14594999700784683
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 694.1499938964844
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 694.1499938964844
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.0559299997985363
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.0559299997985363
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 41.53499984741211
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 41.53499984741211
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 101.95000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 101.95000076293945
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.4
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.789999961853027
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.789999961853027
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1423499956727028
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1423499956727028
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 102.4000015258789
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 102.4000015258789
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.5
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 31.28499984741211
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 31.28499984741211
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 114.5999984741211
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 114.5999984741211
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.4013500064611435
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.4013500064611435
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 726.8500061035156
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 726.8500061035156
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1526999995112419
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1526999995112419
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 1.3765000104904175
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 1.3765000104904175
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.6
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.2715499997138977
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.2715499997138977
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.13580000400543213
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.13580000400543213
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.979999542236328
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.979999542236328
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.574999809265137
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.574999809265137
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.7
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05591999925673008
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05591999925673008
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.453450009226799
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.453450009226799
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.12515000253915787
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.12515000253915787
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 99.08499908447266
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 99.08499908447266
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.574999809265137
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.574999809265137
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.8
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.03000020980835
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.03000020980835
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3160000145435333
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3160000145435333
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.118499994277954
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.118499994277954
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.01671000011265278
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.01671000011265278
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.13875000178813934
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.13875000178813934
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.29884999990463257
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.29884999990463257
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.9
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 98.43000030517578
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 98.43000030517578
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.829999923706055
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.829999923706055
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 6.597499847412109
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 6.597499847412109
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 22.454999923706055
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 22.454999923706055
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.10
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 874.8500061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 874.8500061035156
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.16125000268220901
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.16125000268220901
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.260000228881836
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.260000228881836
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.06932000070810318
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.06932000070810318
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.03195999935269356
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.03195999935269356
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.11
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.16084999591112137
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.16084999591112137
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.12
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.115000247955322
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.115000247955322
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.795000076293945
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.795000076293945
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3888999968767166
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3888999968767166
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.00925099989399314
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.00925099989399314
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.13
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.055800000205636024
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.055800000205636024
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 29.795000076293945
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 29.795000076293945
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.789999961853027
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.789999961853027
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 5.922999858856201
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 5.922999858856201
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.14
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 115.3499984741211
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 115.3499984741211
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05261499993503094
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05261499993503094
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 22.454999923706055
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 22.454999923706055
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003309000050649047
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003309000050649047
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.0032755000283941627
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.0032755000283941627
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.15
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.10195000097155571
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.10195000097155571
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.21640000492334366
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.21640000492334366
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.10954999923706055
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.10954999923706055
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 14.980000019073486
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 14.980000019073486
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.16
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.025000095367432
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.025000095367432
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1419999971985817
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1419999971985817
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 14.96999979019165
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 14.96999979019165
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 42.19000053405762
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 42.19000053405762
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 22.454999923706055
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 22.454999923706055
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.17
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 694.1499938964844
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 694.1499938964844
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.367249995470047
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.367249995470047
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.28280000388622284
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.28280000388622284
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.4438000023365021
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.4438000023365021
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.18
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 32.93000030517578
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 32.93000030517578
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.43400000035762787
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.43400000035762787
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 822.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 822.75
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 29.804999351501465
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 29.804999351501465
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.4081999957561493
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.4081999957561493
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.19
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.0861550010740757
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.0861550010740757
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.010375000070780516
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.010375000070780516
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.20
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.10330000147223473
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.10330000147223473
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 115.45000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 115.45000076293945
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.11084999889135361
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.11084999889135361
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 79.82500076293945
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 79.82500076293945
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.21
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 696.25
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 696.25
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 727.1000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 727.1000061035156
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.5095500200986862
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.5095500200986862
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.160350002348423
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.160350002348423
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.09322499856352806
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.09322499856352806
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.22
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 844.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 844.75
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.13580000400543213
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.13580000400543213
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.00925099989399314
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.00925099989399314
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.23
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.10330000147223473
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.10330000147223473
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05255500040948391
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05255500040948391
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003309000050649047
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003309000050649047
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.056280000135302544
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.056280000135302544
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.24
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 696.25
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 696.25
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 112.5999984741211
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 112.5999984741211
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 42.19000053405762
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 42.19000053405762
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.007484500063583255
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.007484500063583255
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.25
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 92.7750015258789
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 92.7750015258789
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14785000681877136
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14785000681877136
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 107.20000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 107.20000076293945
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.19824999570846558
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.19824999570846558
+Node: We are examining feature 'compactness error', whose value 0.0, which will be compared to the node threshold 0.010419999714940786
+Going left: as feature 'compactness error' whose value is 0.0 is less than or equal to node threshold value, 0.010419999714940786
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.06367000192403793
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.06367000192403793
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.26
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.10330000147223473
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.10330000147223473
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 101.6349983215332
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 101.6349983215332
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 43.079999923706055
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 43.079999923706055
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.3582499921321869
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.3582499921321869
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.15094999969005585
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.15094999969005585
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3787499964237213
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3787499964237213
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 949.8500061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 949.8500061035156
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 785.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 785.75
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.27
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14239999651908875
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14239999651908875
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 56.09000015258789
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 56.09000015258789
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 102.4000015258789
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 102.4000015258789
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 22.344999313354492
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 22.344999313354492
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.28
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.38769999146461487
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.38769999146461487
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.1347999945282936
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.1347999945282936
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.699999809265137
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.699999809265137
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 895.0
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 895.0
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.17594999819993973
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.17594999819993973
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.29
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 906.8999938964844
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 906.8999938964844
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.1782499998807907
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.1782499998807907
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 14.980000019073486
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 14.980000019073486
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.30
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 957.4500122070312
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 957.4500122070312
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.065000057220459
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.065000057220459
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 33.10499954223633
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 33.10499954223633
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.31
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 3.4375
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 3.4375
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 868.1999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 868.1999816894531
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3693999946117401
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3693999946117401
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 101.79999923706055
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 101.79999923706055
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.14185000211000443
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.14185000211000443
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.32
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 91.85499954223633
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 91.85499954223633
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.36934998631477356
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.36934998631477356
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.16990000009536743
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.16990000009536743
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 839.6000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 839.6000061035156
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 648.6999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 648.6999816894531
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.33
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.2609500139951706
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.2609500139951706
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 127.20000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 127.20000076293945
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.16385000199079514
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.16385000199079514
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.34
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14204999804496765
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14204999804496765
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 952.8999938964844
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 952.8999938964844
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 42.19000053405762
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 42.19000053405762
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.35
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.789999961853027
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.789999961853027
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.4382999986410141
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.4382999986410141
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.08240500092506409
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.08240500092506409
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 785.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 785.75
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.118499994277954
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.118499994277954
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.36
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.11830000206828117
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.11830000206828117
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 697.8000183105469
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 697.8000183105469
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05104999989271164
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05104999989271164
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.829999923706055
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.829999923706055
+Node: We are examining feature 'compactness error', whose value 0.0, which will be compared to the node threshold 0.012025000061839819
+Going left: as feature 'compactness error' whose value is 0.0 is less than or equal to node threshold value, 0.012025000061839819
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 91.54999923706055
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 91.54999923706055
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.37
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14705000072717667
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14705000072717667
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 42.94999885559082
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 42.94999885559082
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 113.14999771118164
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 113.14999771118164
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.41190001368522644
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.41190001368522644
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 110.9000015258789
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 110.9000015258789
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.38
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.0506649985909462
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.0506649985909462
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 957.4500122070312
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 957.4500122070312
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.008710499852895737
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.008710499852895737
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.39
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.07214000076055527
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.07214000076055527
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1103999987244606
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1103999987244606
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 127.20000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 127.20000076293945
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.010375000070780516
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.010375000070780516
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.40
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05591999925673008
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05591999925673008
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.574999809265137
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.574999809265137
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 0.3624500036239624
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 0.3624500036239624
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 86.25500106811523
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 86.25500106811523
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.41
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.795000076293945
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.795000076293945
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.4382999986410141
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.4382999986410141
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1464499980211258
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1464499980211258
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.20565000176429749
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.20565000176429749
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.42
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 98.43000030517578
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 98.43000030517578
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.13505000621080399
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.13505000621080399
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.880000114440918
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.880000114440918
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 30.145000457763672
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 30.145000457763672
+Node: We are examining feature 'mean smoothness', whose value 0.0, which will be compared to the node threshold 0.09941999986767769
+Going left: as feature 'mean smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.09941999986767769
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.43
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 696.25
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 696.25
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.06080000102519989
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.06080000102519989
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.05671999976038933
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.05671999976038933
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 19.469999313354492
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 19.469999313354492
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.44
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 115.10000228881836
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 115.10000228881836
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.16125000268220901
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.16125000268220901
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.234999656677246
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.234999656677246
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 101.54999923706055
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 101.54999923706055
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 92.65999984741211
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 92.65999984741211
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.18445000052452087
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.18445000052452087
+Node: We are examining feature 'mean symmetry', whose value 0.0, which will be compared to the node threshold 0.1619499996304512
+Going left: as feature 'mean symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.1619499996304512
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.19824999570846558
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.19824999570846558
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.1955999955534935
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.1955999955534935
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.45
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 105.95000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 105.95000076293945
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.36150000989437103
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.36150000989437103
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.04506500065326691
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.04506500065326691
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 44.52000045776367
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 44.52000045776367
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.46
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.26010000705718994
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.26010000705718994
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 61.05500030517578
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 61.05500030517578
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.05590000003576279
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.05590000003576279
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.07079999893903732
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.07079999893903732
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.028744999319314957
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.028744999319314957
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.47
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.38944999873638153
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.38944999873638153
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 101.95000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 101.95000076293945
+Node: We are examining feature 'mean symmetry', whose value 0.0, which will be compared to the node threshold 0.2525000050663948
+Going left: as feature 'mean symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.2525000050663948
+Node: We are examining feature 'mean smoothness', whose value 0.0, which will be compared to the node threshold 0.12105000019073486
+Going left: as feature 'mean smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.12105000019073486
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 92.01499938964844
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 92.01499938964844
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.48
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 868.1999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 868.1999816894531
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.369499996304512
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.369499996304512
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.06268499977886677
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.06268499977886677
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 1.3765000104904175
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 1.3765000104904175
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.49
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14159999787807465
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14159999787807465
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.10954999923706055
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.10954999923706055
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 98.91999816894531
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 98.91999816894531
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 14.980000019073486
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 14.980000019073486
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 18.09999942779541
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 18.09999942779541
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.50
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.09649999812245369
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.09649999812245369
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 3.3774999380111694
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 3.3774999380111694
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 929.8000183105469
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 929.8000183105469
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05721000023186207
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05721000023186207
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003413999918848276
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003413999918848276
+Node: We are examining feature 'fractal dimension error', whose value 0.0, which will be compared to the node threshold 0.0018384999711997807
+Going left: as feature 'fractal dimension error' whose value is 0.0 is less than or equal to node threshold value, 0.0018384999711997807
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.13546499982476234
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.13546499982476234
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.51
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.795000076293945
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.795000076293945
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.39010000228881836
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.39010000228881836
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.279999732971191
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.279999732971191
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 22.454999923706055
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 22.454999923706055
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 112.70000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 112.70000076293945
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003309000050649047
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003309000050649047
+Node: We are examining feature 'mean symmetry', whose value 0.0, which will be compared to the node threshold 0.17594999819993973
+Going left: as feature 'mean symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.17594999819993973
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.52
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 108.3499984741211
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 108.3499984741211
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.39010000228881836
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.39010000228881836
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05261499993503094
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05261499993503094
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.53
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1465499997138977
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1465499997138977
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 893.6499938964844
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 893.6499938964844
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 31.63499927520752
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 31.63499927520752
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 101.63999938964844
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 101.63999938964844
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.19824999570846558
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.19824999570846558
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.030574999749660492
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.030574999749660492
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.54
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 868.1999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 868.1999816894531
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.1253499984741211
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.1253499984741211
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 737.1000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 737.1000061035156
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05636000074446201
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05636000074446201
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.55
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 14.980000019073486
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 14.980000019073486
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.15890000015497208
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.15890000015497208
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 17.27999973297119
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 17.27999973297119
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.1782499998807907
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.1782499998807907
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.118499994277954
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.118499994277954
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 23.260000228881836
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 23.260000228881836
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.56
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 98.23999786376953
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 98.23999786376953
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.159000001847744
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.159000001847744
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.009265999775379896
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.009265999775379896
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.57
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14239999651908875
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14239999651908875
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 18.690000534057617
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 18.690000534057617
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.09693000093102455
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.09693000093102455
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.58
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 29.875
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 29.875
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 116.79999923706055
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 116.79999923706055
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 960.5
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 960.5
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.59
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.13164999336004257
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.13164999336004257
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 19.344999313354492
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 19.344999313354492
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 66.09000205993652
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 66.09000205993652
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.09693000093102455
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.09693000093102455
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.60
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.09727999940514565
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.09727999940514565
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 41.415000915527344
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 41.415000915527344
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 112.64999771118164
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 112.64999771118164
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.3648499995470047
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.3648499995470047
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.15599999576807022
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.15599999576807022
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003309000050649047
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003309000050649047
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.056280000135302544
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.056280000135302544
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.61
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.025000095367432
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.025000095367432
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3584500104188919
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3584500104188919
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 28.074999809265137
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 28.074999809265137
+Node: We are examining feature 'concave points error', whose value 0.0, which will be compared to the node threshold 0.01408000010997057
+Going left: as feature 'concave points error' whose value is 0.0 is less than or equal to node threshold value, 0.01408000010997057
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.62
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 696.9500122070312
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 696.9500122070312
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1423499956727028
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1423499956727028
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 42.94999885559082
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 42.94999885559082
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.04672999866306782
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.04672999866306782
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.63
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'fractal dimension error', whose value 0.0, which will be compared to the node threshold 0.0014894999912939966
+Going left: as feature 'fractal dimension error' whose value is 0.0 is less than or equal to node threshold value, 0.0014894999912939966
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.16905000060796738
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.16905000060796738
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.64
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 830.7000122070312
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 830.7000122070312
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.16459999978542328
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.16459999978542328
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.574999809265137
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.574999809265137
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 90.63000106811523
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 90.63000106811523
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.65
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.10330000147223473
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.10330000147223473
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.0692249983549118
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.0692249983549118
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.050000190734863
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.050000190734863
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.574999809265137
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.574999809265137
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.034424999728798866
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.034424999728798866
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.66
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 694.1499938964844
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 694.1499938964844
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.11134999990463257
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.11134999990463257
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3678999990224838
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3678999990224838
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003309000050649047
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003309000050649047
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 19.744999885559082
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 19.744999885559082
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.67
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 874.8500061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 874.8500061035156
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1656000018119812
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1656000018119812
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 1.047549992799759
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 1.047549992799759
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 594.8000183105469
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 594.8000183105469
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.19824999570846558
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.19824999570846558
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.07063999772071838
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.07063999772071838
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.68
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1465499997138977
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1465499997138977
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 120.35000228881836
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 120.35000228881836
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.0628800019621849
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.0628800019621849
+Node: We are examining feature 'fractal dimension error', whose value 0.0, which will be compared to the node threshold 0.0016345000476576388
+Going left: as feature 'fractal dimension error' whose value is 0.0 is less than or equal to node threshold value, 0.0016345000476576388
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.69
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.80500030517578
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.80500030517578
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3693999946117401
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3693999946117401
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.0580850001424551
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.0580850001424551
+Node: We are examining feature 'compactness error', whose value 0.0, which will be compared to the node threshold 0.012025000061839819
+Going left: as feature 'compactness error' whose value is 0.0 is less than or equal to node threshold value, 0.012025000061839819
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 3.7024999856948853
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 3.7024999856948853
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.04629500024020672
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.04629500024020672
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.11054999753832817
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.11054999753832817
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.70
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.30505000054836273
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.30505000054836273
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 16.925000190734863
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 16.925000190734863
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 693.0499877929688
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 693.0499877929688
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 922.3000183105469
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 922.3000183105469
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3826500028371811
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3826500028371811
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.3011000007390976
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.3011000007390976
+Node: We are examining feature 'compactness error', whose value 0.0, which will be compared to the node threshold 0.012025000061839819
+Going left: as feature 'compactness error' whose value is 0.0 is less than or equal to node threshold value, 0.012025000061839819
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.04629500024020672
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.04629500024020672
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.11054999753832817
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.11054999753832817
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.71
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.0506649985909462
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.0506649985909462
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 96.57999801635742
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 96.57999801635742
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.17764999717473984
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.17764999717473984
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 950.0999755859375
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 950.0999755859375
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'fractal dimension error', whose value 0.0, which will be compared to the node threshold 0.0013144999975338578
+Going left: as feature 'fractal dimension error' whose value is 0.0 is less than or equal to node threshold value, 0.0013144999975338578
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.10850000008940697
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.10850000008940697
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.72
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.05458500050008297
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.05458500050008297
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.09975999966263771
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.09975999966263771
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.73
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 114.5999984741211
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 114.5999984741211
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.16459999978542328
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.16459999978542328
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 85.32999801635742
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 85.32999801635742
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.74
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1423499956727028
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1423499956727028
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 98.5
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 98.5
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.11140000075101852
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.11140000075101852
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.16084999591112137
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.16084999591112137
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.75
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.285000324249268
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.285000324249268
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 884.5499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 884.5499877929688
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.39010000228881836
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.39010000228881836
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 29.755000114440918
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 29.755000114440918
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.105499982833862
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.105499982833862
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.76
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 97.14500045776367
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 97.14500045776367
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 102.4000015258789
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 102.4000015258789
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1419999971985817
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1419999971985817
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 3.9535000324249268
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 3.9535000324249268
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.14185000211000443
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.14185000211000443
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.77
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 694.1499938964844
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 694.1499938964844
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.0559299997985363
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.0559299997985363
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.04432000033557415
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.04432000033557415
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 937.1999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 937.1999816894531
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.07890500128269196
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.07890500128269196
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.78
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.3570999950170517
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.3570999950170517
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 662.2000122070312
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 662.2000122070312
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 768.9000244140625
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 768.9000244140625
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 623.1499938964844
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 623.1499938964844
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 1.378000020980835
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 1.378000020980835
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.79
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14705000072717667
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14705000072717667
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 17.539999961853027
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 17.539999961853027
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.055124999955296516
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.055124999955296516
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.80
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 109.45000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 109.45000076293945
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.3576499968767166
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.3576499968767166
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.055124999955296516
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.055124999955296516
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.81
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 880.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 880.75
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.11134999990463257
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.11134999990463257
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.19054999947547913
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.19054999947547913
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.0580850001424551
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.0580850001424551
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.829999923706055
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.829999923706055
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 754.0500183105469
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 754.0500183105469
+Node: We are examining feature 'compactness error', whose value 0.0, which will be compared to the node threshold 0.01203000033274293
+Going left: as feature 'compactness error' whose value is 0.0 is less than or equal to node threshold value, 0.01203000033274293
+Node: We are examining feature 'concavity error', whose value 0.0, which will be compared to the node threshold 0.021975000388920307
+Going left: as feature 'concavity error' whose value is 0.0 is less than or equal to node threshold value, 0.021975000388920307
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.82
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 861.7999877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 861.7999877929688
+Node: We are examining feature 'mean smoothness', whose value 0.0, which will be compared to the node threshold 0.09047500044107437
+Going left: as feature 'mean smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.09047500044107437
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.83
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 754.1000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 754.1000061035156
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1656000018119812
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1656000018119812
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 1.0192500054836273
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 1.0192500054836273
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.0805949978530407
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.0805949978530407
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.84
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 868.1999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 868.1999816894531
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.48924998939037323
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.48924998939037323
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 29.674999237060547
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 29.674999237060547
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 2.0920000076293945
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 2.0920000076293945
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.85
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 14.769999980926514
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 14.769999980926514
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 750.0499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 750.0499877929688
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 103.25
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 103.25
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.20000000298023224
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.20000000298023224
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.160350002348423
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.160350002348423
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 47.03499984741211
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 47.03499984741211
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.09322499856352806
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.09322499856352806
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.86
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 105.25
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 105.25
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05636000074446201
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05636000074446201
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14559999853372574
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14559999853372574
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.026804999448359013
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.026804999448359013
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 15.78000020980835
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 15.78000020980835
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.87
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 868.1999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 868.1999816894531
+Node: We are examining feature 'mean smoothness', whose value 0.0, which will be compared to the node threshold 0.11540000140666962
+Going left: as feature 'mean smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.11540000140666962
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.14095000177621841
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.14095000177621841
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003309000050649047
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003309000050649047
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 82.39500045776367
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 82.39500045776367
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.88
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 875.1999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 875.1999816894531
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.16125000268220901
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.16125000268220901
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.054224999621510506
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.054224999621510506
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.06513999961316586
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.06513999961316586
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.89
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 17.510000228881836
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 17.510000228881836
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.10370000079274178
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.10370000079274178
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1472500041127205
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1472500041127205
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 2.0920000076293945
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 2.0920000076293945
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 844.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 844.75
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 92.02000045776367
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 92.02000045776367
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.90
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 98.40499877929688
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 98.40499877929688
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.09307000041007996
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.09307000041007996
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 902.9499816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 902.9499816894531
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.829999923706055
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.829999923706055
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.9725500047206879
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.9725500047206879
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05110999941825867
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05110999941825867
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.118499994277954
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.118499994277954
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.91
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 953.7000122070312
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 953.7000122070312
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.4382999986410141
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.4382999986410141
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 29.674999237060547
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 29.674999237060547
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.0983400009572506
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.0983400009572506
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.92
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.0861550010740757
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.0861550010740757
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 847.8499755859375
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 847.8499755859375
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 957.4500122070312
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 957.4500122070312
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.3872999995946884
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.3872999995946884
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 30.145000457763672
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 30.145000457763672
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.19824999570846558
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.19824999570846558
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 3.697999954223633
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 3.697999954223633
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.93
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14169999957084656
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14169999957084656
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 56.09000015258789
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 56.09000015258789
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 927.1000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 927.1000061035156
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.37754999101161957
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.37754999101161957
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.94
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 868.1999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 868.1999816894531
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1419999971985817
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1419999971985817
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05261499993503094
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05261499993503094
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.95
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14169999957084656
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14169999957084656
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.054455000907182693
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.054455000907182693
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.2604999989271164
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.2604999989271164
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.11130999773740768
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.11130999773740768
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.96
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 17.02500057220459
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 17.02500057220459
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.43675000965595245
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.43675000965595245
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05261499993503094
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05261499993503094
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 785.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 785.75
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.14185000211000443
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.14185000211000443
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.97
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 884.5499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 884.5499877929688
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.3849000036716461
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.3849000036716461
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 91.55500030517578
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 91.55500030517578
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1526999995112419
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1526999995112419
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.14660000056028366
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.14660000056028366
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 2.89900004863739
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 2.89900004863739
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.98
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.795000076293945
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.795000076293945
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 14.980000019073486
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 14.980000019073486
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.2538999989628792
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.2538999989628792
+Node: We are examining feature 'concave points error', whose value 0.0, which will be compared to the node threshold 0.01408000010997057
+Going left: as feature 'concave points error' whose value is 0.0 is less than or equal to node threshold value, 0.01408000010997057
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.99
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 884.5499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 884.5499877929688
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1318499967455864
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1318499967455864
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 48.70000076293945
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 48.70000076293945
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 15.865000247955322
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 15.865000247955322
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.21335000544786453
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.21335000544786453
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.100
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.0506649985909462
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.0506649985909462
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.824999809265137
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.824999809265137
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.17764999717473984
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.17764999717473984
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.0033490000059828162
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.0033490000059828162
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 15.445000171661377
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 15.445000171661377
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.101
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 113.75
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 113.75
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.367249995470047
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.367249995470047
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 22.454999923706055
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 22.454999923706055
+Node: We are examining feature 'concave points error', whose value 0.0, which will be compared to the node threshold 0.01422500004991889
+Going left: as feature 'concave points error' whose value is 0.0 is less than or equal to node threshold value, 0.01422500004991889
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 785.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 785.75
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.102
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1464499980211258
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1464499980211258
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.20820000022649765
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.20820000022649765
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.16084999591112137
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.16084999591112137
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.103
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.055800000205636024
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.055800000205636024
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.6255500018596649
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.6255500018596649
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 839.6499938964844
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 839.6499938964844
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 22.38499927520752
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 22.38499927520752
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.104
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 14.769999980926514
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 14.769999980926514
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 750.0499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 750.0499877929688
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.6685499846935272
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.6685499846935272
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 15.964999675750732
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 15.964999675750732
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.105499982833862
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.105499982833862
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.40870000422000885
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.40870000422000885
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.14169999957084656
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.14169999957084656
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.105
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.789999961853027
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.789999961853027
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.3570999950170517
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.3570999950170517
+Node: We are examining feature 'mean smoothness', whose value 0.0, which will be compared to the node threshold 0.12105000019073486
+Going left: as feature 'mean smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.12105000019073486
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.5600004196167
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.5600004196167
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.31999969482422
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.31999969482422
+Node: We are examining feature 'mean symmetry', whose value 0.0, which will be compared to the node threshold 0.1619499996304512
+Going left: as feature 'mean symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.1619499996304512
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 2.0740000009536743
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 2.0740000009536743
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.106
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 874.8500061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 874.8500061035156
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 15.639999866485596
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 15.639999866485596
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.06080000102519989
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.06080000102519989
+Node: We are examining feature 'mean smoothness', whose value 0.0, which will be compared to the node threshold 0.12224999815225601
+Going left: as feature 'mean smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.12224999815225601
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.055124999955296516
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.055124999955296516
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.107
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.025000095367432
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.025000095367432
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14189999550580978
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14189999550580978
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 562.5499877929688
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 562.5499877929688
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.026784999296069145
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.026784999296069145
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.108
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 114.39999771118164
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 114.39999771118164
+Node: We are examining feature 'mean smoothness', whose value 0.0, which will be compared to the node threshold 0.12050000205636024
+Going left: as feature 'mean smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.12050000205636024
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 727.1000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 727.1000061035156
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 3.9535000324249268
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 3.9535000324249268
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1713000014424324
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1713000014424324
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 33.26999855041504
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 33.26999855041504
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.109
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 115.3499984741211
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 115.3499984741211
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.3858499974012375
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.3858499974012375
+Node: We are examining feature 'mean symmetry', whose value 0.0, which will be compared to the node threshold 0.21169999986886978
+Going left: as feature 'mean symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.21169999986886978
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 102.4000015258789
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 102.4000015258789
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 87.19000244140625
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 87.19000244140625
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.110
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 884.5499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 884.5499877929688
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.17870000004768372
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.17870000004768372
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.369499996304512
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.369499996304512
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 696.25
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 696.25
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 29.854999542236328
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 29.854999542236328
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 2.0859999656677246
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 2.0859999656677246
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.111
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.540800005197525
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.540800005197525
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 106.04999923706055
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 106.04999923706055
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 32.5049991607666
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 32.5049991607666
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 740.3499755859375
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 740.3499755859375
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.17099999636411667
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.17099999636411667
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.112
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.26010000705718994
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.26010000705718994
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 18.989999771118164
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 18.989999771118164
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 96.46500015258789
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 96.46500015258789
+Node: We are examining feature 'fractal dimension error', whose value 0.0, which will be compared to the node threshold 0.0013144999975338578
+Going left: as feature 'fractal dimension error' whose value is 0.0 is less than or equal to node threshold value, 0.0013144999975338578
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.0696449987590313
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.0696449987590313
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.113
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 643.0
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 643.0
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 727.1000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 727.1000061035156
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.1679999977350235
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.1679999977350235
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1419999971985817
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1419999971985817
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.026784999296069145
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.026784999296069145
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.114
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 750.0499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 750.0499877929688
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.06080000102519989
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.06080000102519989
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 677.9499816894531
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 677.9499816894531
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05162999965250492
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05162999965250492
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 47.03499984741211
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 47.03499984741211
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.115
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 17.03499984741211
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 17.03499984741211
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05497500114142895
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05497500114142895
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 3.784000039100647
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 3.784000039100647
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 748.6499938964844
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 748.6499938964844
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.116
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 114.45000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 114.45000076293945
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05110999941825867
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05110999941825867
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 34.404998779296875
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 34.404998779296875
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 1.378000020980835
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 1.378000020980835
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.117
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 17.809999465942383
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 17.809999465942383
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.5834999978542328
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.5834999978542328
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.010000228881836
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.010000228881836
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 102.4000015258789
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 102.4000015258789
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.118
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.025000095367432
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.025000095367432
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.3662000000476837
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.3662000000476837
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 32.98499870300293
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 32.98499870300293
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.016490000300109386
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.016490000300109386
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.55500030517578
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.55500030517578
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.119
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05591999925673008
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05591999925673008
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.010989999864250422
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.010989999864250422
+Node: We are examining feature 'concavity error', whose value 0.0, which will be compared to the node threshold 0.015665000304579735
+Going left: as feature 'concavity error' whose value is 0.0 is less than or equal to node threshold value, 0.015665000304579735
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.03601999953389168
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.03601999953389168
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.120
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05261499993503094
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05261499993503094
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 112.64999771118164
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 112.64999771118164
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 21.574999809265137
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 21.574999809265137
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.20024999976158142
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.20024999976158142
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.5113999843597412
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.5113999843597412
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.121
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05261499993503094
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05261499993503094
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 112.64999771118164
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 112.64999771118164
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.009265999775379896
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.009265999775379896
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.122
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14189999550580978
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14189999550580978
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.800000190734863
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.800000190734863
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.0320000648498535
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.0320000648498535
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 92.02000045776367
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 92.02000045776367
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.123
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.10164999961853027
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.10164999961853027
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05110999941825867
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05110999941825867
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.1687999963760376
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.1687999963760376
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.124
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 115.45000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 115.45000076293945
+Node: We are examining feature 'mean texture', whose value 0.0, which will be compared to the node threshold 22.454999923706055
+Going left: as feature 'mean texture' whose value is 0.0 is less than or equal to node threshold value, 22.454999923706055
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.17855000495910645
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.17855000495910645
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.15554999560117722
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.15554999560117722
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003309000050649047
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003309000050649047
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.015500000212341547
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.015500000212341547
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.125
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 694.1499938964844
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 694.1499938964844
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.36934998631477356
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.36934998631477356
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 839.6000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 839.6000061035156
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.1456499993801117
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.1456499993801117
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 15.850000381469727
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 15.850000381469727
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.118499994277954
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.118499994277954
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 650.9499816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 650.9499816894531
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.126
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 884.5499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 884.5499877929688
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 101.54999923706055
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 101.54999923706055
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 47.03499984741211
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 47.03499984741211
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.08779000118374825
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.08779000118374825
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.09322499856352806
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.09322499856352806
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.127
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 696.25
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 696.25
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05489500053226948
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05489500053226948
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.15174999833106995
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.15174999833106995
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.045465001836419106
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.045465001836419106
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.128
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05591999925673008
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05591999925673008
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 34.404998779296875
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 34.404998779296875
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 702.1499938964844
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 702.1499938964844
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1318499967455864
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1318499967455864
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003309000050649047
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003309000050649047
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.2000500038266182
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.2000500038266182
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.129
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 16.795000076293945
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 16.795000076293945
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.10235000029206276
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.10235000029206276
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05101499892771244
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05101499892771244
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.00925099989399314
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.00925099989399314
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.130
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 874.8500061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 874.8500061035156
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.07253500074148178
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.07253500074148178
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05162999965250492
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05162999965250492
+Node: We are examining feature 'worst fractal dimension', whose value 0.0, which will be compared to the node threshold 0.11914999783039093
+Going left: as feature 'worst fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.11914999783039093
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 48.70000076293945
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 48.70000076293945
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.23865000158548355
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.23865000158548355
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.061249999329447746
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.061249999329447746
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.09235499799251556
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.09235499799251556
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.131
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05127999931573868
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05127999931573868
+Node: We are examining feature 'worst radius', whose value 0.0, which will be compared to the node threshold 17.449999809265137
+Going left: as feature 'worst radius' whose value is 0.0 is less than or equal to node threshold value, 17.449999809265137
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 2.0859999656677246
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 2.0859999656677246
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 30.145000457763672
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 30.145000457763672
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.132
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 105.1500015258789
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 105.1500015258789
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.17855000495910645
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.17855000495910645
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 750.0
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 750.0
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 671.5
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 671.5
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.133
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 114.45000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 114.45000076293945
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.3570999950170517
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.3570999950170517
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05636000074446201
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05636000074446201
+Node: We are examining feature 'smoothness error', whose value 0.0, which will be compared to the node threshold 0.003313999972306192
+Going left: as feature 'smoothness error' whose value is 0.0 is less than or equal to node threshold value, 0.003313999972306192
+Node: We are examining feature 'mean fractal dimension', whose value 0.0, which will be compared to the node threshold 0.06258499994874
+Going left: as feature 'mean fractal dimension' whose value is 0.0 is less than or equal to node threshold value, 0.06258499994874
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.134
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14169999957084656
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14169999957084656
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 115.10000228881836
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 115.10000228881836
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 102.8499984741211
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 102.8499984741211
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 96.85499954223633
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 96.85499954223633
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 42.94999885559082
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 42.94999885559082
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 33.26999855041504
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 33.26999855041504
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.135
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 117.44999694824219
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 117.44999694824219
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.164450004696846
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.164450004696846
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.35670000314712524
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.35670000314712524
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 14.414999961853027
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 14.414999961853027
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 777.6000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 777.6000061035156
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 33.35000038146973
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 33.35000038146973
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.136
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.10215000063180923
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.10215000063180923
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05104999989271164
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05104999989271164
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 4.118499994277954
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 4.118499994277954
+Node: We are examining feature 'texture error', whose value 0.0, which will be compared to the node threshold 0.38009999692440033
+Going left: as feature 'texture error' whose value is 0.0 is less than or equal to node threshold value, 0.38009999692440033
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.137
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 92.7750015258789
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 92.7750015258789
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14785000681877136
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14785000681877136
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 34.510000228881836
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 34.510000228881836
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.07073500007390976
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.07073500007390976
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.138
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 117.44999694824219
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 117.44999694824219
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.09329499676823616
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.09329499676823616
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 28.020000457763672
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 28.020000457763672
+Node: We are examining feature 'symmetry error', whose value 0.0, which will be compared to the node threshold 0.008710499852895737
+Going left: as feature 'symmetry error' whose value is 0.0 is less than or equal to node threshold value, 0.008710499852895737
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.139
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 14.829999923706055
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 14.829999923706055
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 101.79999923706055
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 101.79999923706055
+Node: We are examining feature 'mean symmetry', whose value 0.0, which will be compared to the node threshold 0.26365000009536743
+Going left: as feature 'mean symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.26365000009536743
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.03500000014901161
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.03500000014901161
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.140
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.07214000076055527
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.07214000076055527
+Node: We are examining feature 'fractal dimension error', whose value 0.0, which will be compared to the node threshold 0.0019045000080950558
+Going left: as feature 'fractal dimension error' whose value is 0.0 is less than or equal to node threshold value, 0.0019045000080950558
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.13814999908208847
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.13814999908208847
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.20109999924898148
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.20109999924898148
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 124.25
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 124.25
+Node: We are examining feature 'perimeter error', whose value 0.0, which will be compared to the node threshold 5.919999837875366
+Going left: as feature 'perimeter error' whose value is 0.0 is less than or equal to node threshold value, 5.919999837875366
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.141
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.2604999989271164
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.2604999989271164
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 123.80000305175781
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 123.80000305175781
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 96.46500015258789
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 96.46500015258789
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.142
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14169999957084656
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14169999957084656
+Node: We are examining feature 'mean area', whose value 0.0, which will be compared to the node threshold 696.25
+Going left: as feature 'mean area' whose value is 0.0 is less than or equal to node threshold value, 696.25
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 29.795000076293945
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 29.795000076293945
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.143
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 112.54999923706055
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 112.54999923706055
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.10370000079274178
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.10370000079274178
+Node: We are examining feature 'concave points error', whose value 0.0, which will be compared to the node threshold 0.01422500004991889
+Going left: as feature 'concave points error' whose value is 0.0 is less than or equal to node threshold value, 0.01422500004991889
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 785.75
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 785.75
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 649.6999816894531
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 649.6999816894531
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.144
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 114.45000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 114.45000076293945
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 727.1000061035156
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 727.1000061035156
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.4910999983549118
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.4910999983549118
+Node: We are examining feature 'mean smoothness', whose value 0.0, which will be compared to the node threshold 0.12050000205636024
+Going left: as feature 'mean smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.12050000205636024
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 33.26999855041504
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 33.26999855041504
+Node: We are examining feature 'concave points error', whose value 0.0, which will be compared to the node threshold 0.01841999962925911
+Going left: as feature 'concave points error' whose value is 0.0 is less than or equal to node threshold value, 0.01841999962925911
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.145
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 105.1500015258789
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 105.1500015258789
+Node: We are examining feature 'mean compactness', whose value 0.0, which will be compared to the node threshold 0.1688000038266182
+Going left: as feature 'mean compactness' whose value is 0.0 is less than or equal to node threshold value, 0.1688000038266182
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 750.0499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 750.0499877929688
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.09322499856352806
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.09322499856352806
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.146
+Node: We are examining feature 'area error', whose value 0.0, which will be compared to the node threshold 33.60500144958496
+Going left: as feature 'area error' whose value is 0.0 is less than or equal to node threshold value, 33.60500144958496
+Node: We are examining feature 'mean concave points', whose value 0.0, which will be compared to the node threshold 0.05582999996840954
+Going left: as feature 'mean concave points' whose value is 0.0 is less than or equal to node threshold value, 0.05582999996840954
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 97.14500045776367
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 97.14500045776367
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 112.5999984741211
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 112.5999984741211
+Node: We are examining feature 'fractal dimension error', whose value 0.0, which will be compared to the node threshold 0.0013144999975338578
+Going left: as feature 'fractal dimension error' whose value is 0.0 is less than or equal to node threshold value, 0.0013144999975338578
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 29.635000228881836
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 29.635000228881836
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.147
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 114.45000076293945
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 114.45000076293945
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14554999768733978
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14554999768733978
+Node: We are examining feature 'radius error', whose value 0.0, which will be compared to the node threshold 0.9725500047206879
+Going left: as feature 'radius error' whose value is 0.0 is less than or equal to node threshold value, 0.9725500047206879
+Node: We are examining feature 'worst texture', whose value 0.0, which will be compared to the node threshold 28.020000457763672
+Going left: as feature 'worst texture' whose value is 0.0 is less than or equal to node threshold value, 28.020000457763672
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+tree no.148
+Node: We are examining feature 'mean concavity', whose value 0.0, which will be compared to the node threshold 0.11189999803900719
+Going left: as feature 'mean concavity' whose value is 0.0 is less than or equal to node threshold value, 0.11189999803900719
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 117.44999694824219
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 117.44999694824219
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.1490500047802925
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.1490500047802925
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.16385000199079514
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.16385000199079514
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.149
+Node: We are examining feature 'worst area', whose value 0.0, which will be compared to the node threshold 884.5499877929688
+Going left: as feature 'worst area' whose value is 0.0 is less than or equal to node threshold value, 884.5499877929688
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14705000072717667
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14705000072717667
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 115.5999984741211
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 115.5999984741211
+Node: We are examining feature 'worst symmetry', whose value 0.0, which will be compared to the node threshold 0.16084999591112137
+Going left: as feature 'worst symmetry' whose value is 0.0 is less than or equal to node threshold value, 0.16084999591112137
+Leaf Node Tree has come to the conclusion that patient does not have breast cancer  
+
+tree no.150
+Node: We are examining feature 'worst concave points', whose value 0.0, which will be compared to the node threshold 0.14559999853372574
+Going left: as feature 'worst concave points' whose value is 0.0 is less than or equal to node threshold value, 0.14559999853372574
+Node: We are examining feature 'mean perimeter', whose value 0.0, which will be compared to the node threshold 107.45000076293945
+Going left: as feature 'mean perimeter' whose value is 0.0 is less than or equal to node threshold value, 107.45000076293945
+Node: We are examining feature 'mean radius', whose value 0.0, which will be compared to the node threshold 15.025000095367432
+Going left: as feature 'mean radius' whose value is 0.0 is less than or equal to node threshold value, 15.025000095367432
+Node: We are examining feature 'worst smoothness', whose value 0.0, which will be compared to the node threshold 0.19054999947547913
+Going left: as feature 'worst smoothness' whose value is 0.0 is less than or equal to node threshold value, 0.19054999947547913
+Node: We are examining feature 'worst concavity', whose value 0.0, which will be compared to the node threshold 0.41370001435279846
+Going left: as feature 'worst concavity' whose value is 0.0 is less than or equal to node threshold value, 0.41370001435279846
+Node: We are examining feature 'worst compactness', whose value 0.0, which will be compared to the node threshold 0.15814999490976334
+Going left: as feature 'worst compactness' whose value is 0.0 is less than or equal to node threshold value, 0.15814999490976334
+Node: We are examining feature 'concave points error', whose value 0.0, which will be compared to the node threshold 0.01369500020518899
+Going left: as feature 'concave points error' whose value is 0.0 is less than or equal to node threshold value, 0.01369500020518899
+Node: We are examining feature 'worst perimeter', whose value 0.0, which will be compared to the node threshold 113.5
+Going left: as feature 'worst perimeter' whose value is 0.0 is less than or equal to node threshold value, 113.5
+Node: We are examining feature 'concavity error', whose value 0.0, which will be compared to the node threshold 0.02326500043272972
+Going left: as feature 'concavity error' whose value is 0.0 is less than or equal to node threshold value, 0.02326500043272972
+Leaf Node Tree has come to the conclusion that patient has breast cancer 
+
+126 trees came to the conclusion that the patient has Breast Cancer while only 24 trees came to the conclusion that the patient doesn't have Breast Cancer, so the model has come to the conclusion that the patient has Breast Cancer

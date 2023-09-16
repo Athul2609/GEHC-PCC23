@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Our Products | Nizami Sevindi</title>
+</head>
+<body>
+    <header class="header" >
+        <a href="#" class="logo">
+            <img src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./chatbot.html" >chatbot</a>
+            <a href="./model">Form</a>
+            <a href="./process_image">OCR</a>
+            <a href="./about_trees">Trees</a>
+            <a href="./lrp">LRP</a>
+            <a href="./review.html">review</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">blog</a>
+        </nav>
+    
+    </header>
+    <section class="products" id="products">
+        <h1 class="heading">Result</h1> 
+    </section>
+    <section>
+        <div class="form-container">
+        <h1 class="mb-4">Result</h1>
+        <div class="card">
+            <div class="card-body">
+                <p class="font-weight-bold">Prediction: {{ y_pred }}</p>
+                <h3 class="mt-4">Explanation:</h3>
+                <p>The patient's values for:</p>
+                <ul class="list-group">
+                    {% for item in explanation_items %}
+                    <li class="list-group-item">{{ item }}</li>
+                    {% endfor %}
+                </ul>
+                <!-- Display the last line separately -->
+                <p class="font-weight-bold">{{ last_line }}</p>
+                <p class="mt-4 text-center">
+                    <a href="/" class="btn btn-primary">Detect again</a>
+                </p>
+                <p class="mt-4 text-center">
+                    <a href="/about_trees" class="btn btn-primary">about trees</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn btn-primary">search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+        </div>
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#chatbot">chatbot</a>
+            <a href="#model">model</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blog">blog</a>
+        </div>
+        <div class="credit">
+            creaated by <span>Nizami Sevindi</span> | all rights reserved!
+        </div>
+    </section>
+    <!-- -------------------------------------------FOOTER SECTION -->
+
+<script src="./script.js"></script>
+</body>
+</html>
+
+
