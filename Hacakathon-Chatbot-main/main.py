@@ -15,6 +15,20 @@ from streamlit_option_menu import option_menu
 from dbtransactions import TransactionFetcher
 from dbinventory import InventoryFetcher
 import keys
+import speech_recognition as sr
+import os
+import threading
+import pyaudio
+
+recognizer = sr.Recognizer()
+
+recognized_text = st.empty()
+
+
+# Create a checkbox for speech recognition
+enable_speech_recognition = st.checkbox("Enable Speech Recognition")
+
+ever_turned_on=0
 
 
 
@@ -91,7 +105,75 @@ if selected == "General":
 
 
     with textcontainer:
-        query = st.text_input("Query: ", key="input")
+        # Start/Stop recording based on checkbox state
+        query1=""
+        query=None
+        count=0
+        while enable_speech_recognition:
+            ever_turned_on=1
+            with sr.Microphone() as source:
+                recognizer.adjust_for_ambient_noise(source)
+                if count==0:
+                    st.success("Recording... Speak something!")
+
+                
+                query1=""
+                # while enable_speech_recognition:
+                print(f"The button is {enable_speech_recognition}")
+                print(count)
+                count+=1
+                audio = recognizer.listen(source, timeout=None)  # No timeout
+
+                # Attempt to recognize audio
+                try:
+                    
+                    audio_text=""  
+                        
+                    text = recognizer.recognize_google(audio)
+                    
+                    recognized_text.text(text)
+                    audio_text+=text
+                    
+                    query1+=audio_text
+                    print(query1)
+                    if count==1:
+                        with open('temp.txt', 'w') as file:
+                            # Write the number to the file as a string
+                            file.write(query1)
+                    else:
+                        with open('temp.txt', 'a') as file:
+                                # Write the number to the file as a string
+                                file.write(query1)
+                except sr.UnknownValueError:
+                    pass  # No recognized text for this audio)
+        with open('temp.txt', 'r') as file:
+            # Read the content of the file
+            query1 = file.read()
+
+        # Convert the content back to an integer
+        if query1:   
+            print("exited with")    
+            print(query1)           
+            if query1:
+                with st.spinner("thinking..."):
+                    # conversation_string = get_conversation_string()
+                    # st.code(conversation_string)
+                    # refined_query = query_refiner(conversation_string, query)
+                    # st.subheader("Refined Query:")
+                    # st.write(query)
+                    
+                    context = find_match(query1)
+                    
+                    # print(context)  
+                    response = conversation.predict(input=f"Context:\n {context} \n\n Query:\n{query1}")
+                
+                st.session_state.requests.append(query1)
+                st.session_state.responses.append(response)
+                ever_turned_on=0
+            with open('temp.txt', 'w') as file:
+                file.write("")
+        print(f"we are out and the button is The button is {enable_speech_recognition}")
+        query = st.text_input("Query: ",key="input")
         if query:
             with st.spinner("typing..."):
                 # conversation_string = get_conversation_string()
@@ -111,7 +193,7 @@ if selected == "General":
             #     add_QA_DB(query, response, "")
             # else:
             #     add_QA_DB_NoAns(query)
-            
+        
     with response_container:
         if st.session_state['responses']:
 
