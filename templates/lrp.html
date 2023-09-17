@@ -29,27 +29,38 @@
         </nav>
     
     </header>
-   <div class="form-container">
-       <h1 class="text-4xl font-bold text-center mb-8">Image Processing</h1>
-       <form class="flex justify-center" method="POST" enctype="multipart/form-data" action="/upload">
-           <input class="p-2 border border-gray-300 rounded-lg" type="file" name="file">
-           <button class="ml-4 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" type="submit">Upload</button>
-       </form>
-
-       <h2 class="text-2xl font-semibold mt-8">Output Images</h2>
-
-       {% if images %}
-           <ul class="grid grid-cols-2 gap-4 mt-4">
-               {% for image in images %}
-                   <li>
-                       <img class="w-full h-auto rounded-lg" src="{{ image }}" alt="Output Image">
-                   </li>
-               {% endfor %}
-           </ul>
-       {% else %}
-           <p class="mt-4 text-gray-600">No output images available.</p>
-       {% endif %}
-   </div>
+    <div class="box-container-LRP">
+        <div class="form-container-LRP text-center">
+            <h1 class="white-text">Layer Wise Relevance Propagation</h1>
+            <form method="POST" enctype="multipart/form-data" action="/upload">
+                <div>
+                    <input class="form-control" type="file" name="file">
+                </div>
+                <button class="btn btn-primary" type="submit">Upload</button>
+            </form>
+    
+            {% if images %}
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-wrap">
+                        {% for image in images %}
+                            <div class="mx-2 mb-4">
+                                <div class="output-image-container">
+                                    <img class="img-fluid custom-image-size" src="{{ image }}" alt="Output Image">
+                                    <!-- Add a caption for each image -->
+                                    <p class="image-caption white-text">{{ image }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% else %}
+                <p class="white-text">No output images available.</p>
+            {% endif %}
+        </div>
+    </div>
+    
+    
+     
    <section class="footer">
     <div class="search">
         <input type="text" class="search-input" placeholder="Search">

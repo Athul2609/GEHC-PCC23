@@ -17,15 +17,6 @@
     /* You can adjust other background properties as needed */
   }
 
-  @keyframes moveBackground {
-    0%, 100% {
-        background-position: 0 0; /* Start with the background at its original position and also reset at 100% */
-    }
-    50% {
-        background-position: 100% 0; /* Move the background 100% horizontally at 50% of the animation */
-    }
-}
-
 *{
     font-family: 'Poppins',sans-serif;
     margin: 0;
@@ -873,3 +864,90 @@ h2.fade-in {
       } */
   }
 /* ------------------------------------------RESPONSIVE SECTION */
+
+/* Add styles for the form-container and output-image-container */
+.form-container-LRP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* style.css */
+.white-text {
+    color: white;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display images in two columns */
+    gap: 20px; /* Add some space between images */
+}
+
+.output-image-container {
+    margin:10px;
+}
+
+/* Style the uploaded image and button */
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-image-size {
+    max-width: 300px; /* Set the maximum width for the images */
+    height: 300px; /* Allow the height to adjust proportionally */
+}
+
+/* Add this CSS to your style.css */
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mb-4 {
+    margin-bottom: 1rem; /* You can adjust the margin as needed */
+}
+
+/* Add this CSS to your style.css */
+.image-caption {
+    text-align: center; /* Center-align the caption */
+    font-size: 18px;
+}
+
+.box-container-LRP {
+    border-radius: 25px; /* Add curved edges */
+    padding: 20px; /* Add padding to create space between the content and the border */
+    margin: 0 auto; /* Center the container horizontally on the page */
+    max-width: 800px; /* Set a maximum width for the container */
+    background: linear-gradient(to bottom, #0074d9, #610099); /* Add a blue gradient background */
+    border: 1px solid #0074d9; /* Border color matches the gradient */
+}
+
+::-webkit-file-upload-button{
+    color:white;
+    background: #007bff;
+    padding:20px;
+    border:none;
+    border-radius: 50px;
+    box-shadow: lpx 0 lpx lpx #6b4559;
+    outline:none;
+}
+
+::-webkit-file-upload-button:hover{
+    background: #0068d7;
+}
