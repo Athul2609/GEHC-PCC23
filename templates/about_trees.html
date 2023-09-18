@@ -26,7 +26,7 @@
             <a href="./lrp">LRP</a>
             <a href="./review.html">review</a>
             <a href="./contact.html">contact</a>
-            <a href="./blog.html">blog</a>
+            <a href="./blog">blog</a>
         </nav>
     
     </header>
@@ -35,12 +35,21 @@
     </section>
     <section>
     <div class="form-container">
-    <h1>Decision Trees</h1>
-    <div>
-        {% for image in image_list %}
-        <img src="{{ url_for('static', filename=image) }}" alt="Decision Tree {{ loop.index }}">
-        {% endfor %}
+        <h1>Decision Trees</h1>
+        <div class="image-slider">
+            <div class="image">
+                <img src="static/decision_tree_1.png" alt="Image 1">
+            </div>
+            <div class="image">
+                <img src="static/decision_tree_2.png" alt="Image 2">
+            </div>
+            <div class="image">
+                <img src="static/decision_tree_3.png" alt="Image 3">
+            </div>
+        </div>
     </div>
+
+
     <p class="mt-4 text-center">
         <a href="/" class="btn btn-primary">Detect</a>
     </p>
@@ -70,6 +79,6 @@
 </section>
 <!-- -------------------------------------------FOOTER SECTION -->
 
-<script src="./script.js"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

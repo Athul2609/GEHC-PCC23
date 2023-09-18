@@ -142,6 +142,10 @@ def process_image():
 def lrp():
     return render_template('lrp.html', output_image=None)
 
+@app.route('/blog')
+def blog():
+    return render_template('blog.html', output_image=None)
+
 @app.route('/upload', methods=['POST'])
 def upload():
     parser = argparse.ArgumentParser()

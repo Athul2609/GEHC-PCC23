@@ -18,15 +18,13 @@
         </a>
         <nav class="navbar">
             <a href="./index.html">home</a>
-            <a href="./about.html">about</a>
             <a href="./chatbot.html" >chatbot</a>
             <a href="./model">Form</a>
             <a href="./process_image">OCR</a>
             <a href="./about_trees">Trees</a>
             <a href="./lrp">LRP</a>
-            <a href="./review.html">review</a>
             <a href="./contact.html">contact</a>
-            <a href="./blog.html">blog</a>
+            <a href="./blog">blog</a>
         </nav>
     
     </header>
@@ -58,6 +56,18 @@
         </div>
     </div>
     </section>
+    <section class="youtube-video-link">
+        {% if y_pred == 'Patient Has Breast Cancer' %}
+        <div class="mt-4 text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KyeiZJrWrys?si=BjWDWL-obDGkR132" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        {% else %}
+        <div class="mt-4 text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KyeiZJrWrys?si=BjWDWL-obDGkR132" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        {% endif %}
+    </section>
+
     <section class="footer">
         <div class="search">
             <input type="text" class="search-input" placeholder="Search">
