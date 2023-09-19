@@ -61,7 +61,7 @@ if selected == "General":
     # system_msg_template = SystemMessagePromptTemplate.from_template(template="""Answer the question as truthfully as possible using the provided context, 
     # and if the answer is not contained within the text below, say 'I don't know'""")
 
-    system_msg_template = SystemMessagePromptTemplate.from_template(template="""You can give your inputs for only all the features but the rest of the questions should be answered only using the given context, do not give responses like context was not enough    '""")
+    system_msg_template = SystemMessagePromptTemplate.from_template(template="""You can give your inputs but if question is asked based on context then give the give the answer from the context   '""")
 
 
     human_msg_template = HumanMessagePromptTemplate.from_template(template="{input}")
@@ -306,15 +306,15 @@ if selected == "User Specific":
     db_params = {
         'dbname': 'postgres',
         'user': 'postgres',
-        'password': 'Mhash@win576',
-        'host': 'db.eoehrierllfhmxlltdyf.supabase.co'
+        'password': 'justdoit03#',
+        'host': 'localhost'
     }
 
     transaction_fetcher = TransactionFetcher(db_params)
     st.title(f"{selected}")
     st.title("User Authentication")
 
-    farmerid = st.text_input("Enter farmer ID:")
+    patient_id = st.text_input("Enter Patient ID:")
     first_name = st.text_input("Enter first name:")
     last_name = st.text_input("Enter last name:")
     submit_button = st.button("Authenticate")
@@ -324,12 +324,12 @@ if selected == "User Specific":
 
     if submit_button:
         # Perform authentication logic here
-        authenticated = transaction_fetcher.process_request(farmerid, first_name, last_name)
+        authenticated = transaction_fetcher.process_request(patient_id, first_name, last_name)
         st.session_state.authenticated = authenticated
 
     if st.session_state.authenticated:
         st.success("Authentication successful! You can now access the chat.")
-        show_chat(farmerid, first_name, last_name, transaction_fetcher)
+        show_chat(patient_id, first_name, last_name, transaction_fetcher)
 
 
 

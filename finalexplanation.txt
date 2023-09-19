@@ -1,0 +1,31 @@
+mean radius was less than or equal to 15.2850
+mean texture was less than or equal to 22.4550
+mean perimeter was less than or equal to 105.2500
+mean area was less than or equal to 696.9500
+mean smoothness was greater than 0.0793
+mean compactness was greater than 0.0904
+mean concavity was greater than 0.0672
+mean concave points was greater than 0.0269
+mean symmetry was greater than 0.1819
+mean fractal dimension was greater than 0.0567
+radius error was greater than 0.1861
+texture error was greater than 0.4953
+perimeter error was greater than 1.2385
+area error was greater than 18.1050
+smoothness error was greater than 0.0036
+compactness error was greater than 0.0093
+concavity error was greater than 0.0157
+concave points error was greater than 0.0107
+symmetry error was greater than 0.0279
+fractal dimension error was greater than 0.0017
+worst radius was greater than 11.7750
+worst texture was greater than 15.7650
+worst perimeter was less than or equal to 120.3500
+worst area was less than or equal to 953.7000
+worst smoothness was greater than 0.0966
+worst compactness was greater than 0.1079
+worst concavity was greater than 0.1956
+worst concave points was greater than 0.0567
+worst symmetry was greater than 0.2002
+worst fractal dimension was greater than 0.0931
+88 trees came to the conclusion that the patient doesn't have Breast Cancer while only 62 trees came to the conclusion that the patient has Breast Cancer, so the model has come to the conclusion that the patient doesn't have Breast Cancer

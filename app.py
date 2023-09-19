@@ -27,6 +27,7 @@ import geocoder
 import torch
 from torchvision.models import vgg16, VGG16_Weights
 from kamani_inference import final_dr_pred
+import subprocess
 
 from src.data import get_data_loader
 from src.lrp import LRPModel
@@ -68,6 +69,11 @@ def breast_cancer_detection():
             y_pred = explain_predict([X_test], loaded_model, output_file)
         y_pred=res_dic[int(y_pred[0])]
         result = cleaner("sample.txt")
+        file_path = "finalexplanation.txt"
+        with open(file_path, "w") as file:
+    # Write the string to the file
+            file.write(result)
+        subprocess.run(["python", "txttopdfconverter.py"])
         print("in app.py",y_pred)
 
         explanation_items = result.split('\n')[:-1]
@@ -78,13 +84,14 @@ def breast_cancer_detection():
         if location:
             latitude, longitude = location
             print(f"Latitude: {latitude}, Longitude: {longitude}")
+            radius = 2000
+            nearby_hospitals,length = get_nearby_hospitals(latitude, longitude, radius)
+            print(nearby_hospitals)
+            print(length)
         else:
             print("Unable to retrieve location data.")
             
-        radius = 2000
-        nearby_hospitals,length = get_nearby_hospitals(latitude, longitude, radius)
-        print(nearby_hospitals)
-        print(length)
+        
 
         # Assign the list of explanation items to 'explanation_items' and the last line to 'last_line'
         # explanation_items, last_line = explanation_items if len(explanation_items) > 1 else ([], result)
@@ -144,6 +151,11 @@ def process_image():
                 y_pred = explain_predict([X_test], loaded_model, output_file)
             y_pred=res_dic[int(y_pred[0])]
             result = cleaner("sample.txt")
+            file_path = "finalexplanation.txt"
+            with open(file_path, "w") as file:
+    # Write the string to the file
+                file.write(result)
+            subprocess.run(["python", "txttopdfconverter.py"])
             print("In app.py",y_pred)
 
             explanation_items = result.split('\n')[:-1]
@@ -344,6 +356,10 @@ def per_image_lrp(config: argparse.Namespace) -> None:
         print("{time:.2f} FPS".format(time=(1.0 / (time.time() - t0))))
 
     return r
+@app.route('/chatbot.html')
+def chatbot():
+    return render_template('streamlit_template.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
