@@ -22,9 +22,11 @@ import numpy as np
 from albumentations.pytorch import ToTensorV2
 import pandas as pd
 from PIL import Image
-
+import requests
+import geocoder
 import torch
 from torchvision.models import vgg16, VGG16_Weights
+from kamani_inference import final_dr_pred
 
 from src.data import get_data_loader
 from src.lrp import LRPModel
@@ -66,15 +68,29 @@ def breast_cancer_detection():
             y_pred = explain_predict([X_test], loaded_model, output_file)
         y_pred=res_dic[int(y_pred[0])]
         result = cleaner("sample.txt")
+        print("in app.py",y_pred)
 
         explanation_items = result.split('\n')[:-1]
         last_line= result.split('\n')[-1]
+        
+        location = get_current_location()
+        print(location)
+        if location:
+            latitude, longitude = location
+            print(f"Latitude: {latitude}, Longitude: {longitude}")
+        else:
+            print("Unable to retrieve location data.")
+            
+        radius = 2000
+        nearby_hospitals,length = get_nearby_hospitals(latitude, longitude, radius)
+        print(nearby_hospitals)
+        print(length)
 
         # Assign the list of explanation items to 'explanation_items' and the last line to 'last_line'
         # explanation_items, last_line = explanation_items if len(explanation_items) > 1 else ([], result)
 
         # Pass both 'explanation_items' and 'last_line' to the template
-        return render_template('result.html', y_pred=y_pred, explanation_items=explanation_items, last_line=last_line)
+        return render_template('result.html', y_pred=y_pred, explanation_items=explanation_items, last_line=last_line, nearby_hospitals = nearby_hospitals)
     
     return render_template('model.html', attribute_names=attribute_names)
 
@@ -89,6 +105,11 @@ def about():
 def index():
     
     return render_template('index.html')
+
+@app.route('/contact')
+def contact():
+    
+    return render_template('contact.html')
 
 @app.route('/process_image', methods=['GET', 'POST'])
 def process_image():
@@ -123,13 +144,15 @@ def process_image():
                 y_pred = explain_predict([X_test], loaded_model, output_file)
             y_pred=res_dic[int(y_pred[0])]
             result = cleaner("sample.txt")
+            print("In app.py",y_pred)
 
             explanation_items = result.split('\n')[:-1]
             last_line= result.split('\n')[-1]
-
             # Assign the list of explanation items to 'explanation_items' and the last line to 'last_line'
             # explanation_items, last_line = explanation_items if len(explanation_items) > 1 else ([], result)
             os.remove(temp_image_path)
+            
+            # Adding the Location API funcitonality
             # Pass both 'explanation_items' and 'last_line' to the template
             return render_template('result.html', y_pred=y_pred, explanation_items=explanation_items, last_line=last_line)
         except Exception as e:
@@ -165,7 +188,7 @@ def upload():
         default="./output/",
     )
     parser.add_argument(
-        "-b", "--batch-size", dest="batch_size", help="Batch size.", default=1, type=int
+        "-b", "--batch-size", dest="batch_size", help="Batch size.", default=2, type=int
     )
     parser.add_argument(
         "-d",
@@ -208,20 +231,20 @@ def upload():
     if file:
         # Save the uploaded file to the INPUT_FOLDER
         input_folder_list = os.listdir(app.config['INPUT_FOLDER'])
-        if len(input_folder_list) > 1:
-            print(len(input_folder_list))
+        if len(input_folder_list) > 2:
             for i in range(len(input_folder_list)):
                 os.remove(os.path.join("input/cats",input_folder_list[i]))
-            print(file.filename)
+                
+        print(input_folder_list)
         input_filename = os.path.join(app.config['INPUT_FOLDER'], file.filename)
         file.save(input_filename)
-
         # Perform transformations on the image (example: resizing)
         transformed_image = per_image_lrp(config)
-
+        
         # Save the transformed image to the OUTPUT_FOLDER
         transformed_image = transformed_image.detach().cpu().numpy()
         original_image = plt.imread(os.path.join(app.config['INPUT_FOLDER'], file.filename))
+        pred = final_dr_pred(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image.png'),os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image.png'))
         plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image.png'), original_image)
         plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image.png'), transformed_image, cmap='afmhot')
         images = []
@@ -234,11 +257,60 @@ def upload():
                 images.append(os.path.join(output_folder, filename))
         print(images)
         
-        return render_template('lrp.html', images=images)
+        return render_template('lrp.html', images=images, pred = pred)
 
 @app.route('/output/<filename>')
 def output_file(filename):
     return send_from_directory(app.config['OUTPUT_FOLDER'], filename)
+
+
+def get_nearby_hospitals(latitude, longitude, radius):
+    overpass_url = "https://overpass-api.de/api/interpreter"
+    query = f"""
+    [out:json];
+    (
+        node["amenity"="hospital"](around:{radius},{latitude},{longitude});
+        way["amenity"="hospital"](around:{radius},{latitude},{longitude});
+        relation["amenity"="hospital"](around:{radius},{latitude},{longitude});
+    );
+    out center;
+    """
+    response = requests.get(overpass_url, params={"data": query})
+    data = response.json()
+    hospital_dict = {}
+    count = 0
+    no_hospitals = {"return hospital_dict"}
+    if "elements" in data:
+        hospitals = data["elements"]
+        for hospital in hospitals:
+            if count < 5:  # Limit to the first 5 hospitals
+                if "tags" in hospital:
+                    name = hospital.get("tags", {}).get("name", "N/A")
+                    address = hospital.get("tags", {}).get("addr:full", "N/A")
+                    hospital_info = {
+                        "Address": address
+                    }
+                    hospital_dict[name] = hospital_info
+                    count += 1
+                else:
+                    break 
+        return hospital_dict, len(hospital_dict)
+    else:
+        return no_hospitals
+    
+def get_current_location():
+    try:
+        # Use the 'geocoder' library to automatically detect the device's location
+        location = geocoder.ip('me')
+        if location:
+            latitude = location.latlng[0]
+            longitude = location.latlng[1]
+            return latitude, longitude
+        else:
+            return None
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return None
 
 def per_image_lrp(config: argparse.Namespace) -> None:
     """Test function that plots heatmaps for images placed in the input folder.

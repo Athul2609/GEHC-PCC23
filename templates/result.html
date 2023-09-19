@@ -23,7 +23,7 @@
             <a href="./process_image">OCR</a>
             <a href="./about_trees">Trees</a>
             <a href="./lrp">LRP</a>
-            <a href="./contact.html">contact</a>
+            <a href="./contact">contact</a>
             <a href="./blog">blog</a>
         </nav>
     
@@ -32,41 +32,42 @@
         <h1 class="heading">Result</h1> 
     </section>
     <section>
-        <div class="form-container">
-        <h1 class="mb-4">Result</h1>
-        <div class="card">
-            <div class="card-body">
-                <p class="font-weight-bold">Prediction: {{ y_pred }}</p>
-                <h3 class="mt-4">Explanation:</h3>
-                <p>The patient's values for:</p>
-                <ul class="list-group">
-                    {% for item in explanation_items %}
-                    <li class="list-group-item">{{ item }}</li>
-                    {% endfor %}
-                </ul>
-                <!-- Display the last line separately -->
-                <p class="font-weight-bold">{{ last_line }}</p>
-                <p class="mt-4 text-center">
-                    <a href="/" class="btn btn-primary">Detect again</a>
-                </p>
-                <p class="mt-4 text-center">
-                    <a href="/about_trees" class="btn btn-primary">about trees</a>
-                </p>
+        <div class="form-container2">
+            <h1 class="mb-4">Result</h1>
+            <div class="card">
+                <div class="card-body">
+                    <p class="font-weight-bold" style="font-size: 24px;">Prediction: {{ y_pred }}</p>
+                    <h3 class="mt-4">Explanation:</h3>
+                    <p>The patient's values for:</p>
+                    <ul class="list-group">
+                        {% for item in explanation_items %}
+                        <li class="list-group-item">{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                    <!-- Display the last line separately -->
+                    <p class="font-weight-bold" style="font-size: 18px;">{{ last_line }}</p>
+                    <p class="mt-4 text-center">
+                        <a href="/" class="btn btn-primary">Detect again</a>
+                    </p>
+                    <p class="mt-4 text-center">
+                        <a href="/about_trees" class="btn btn-primary">about trees</a>
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
     </section>
-    <section class="youtube-video-link">
-        {% if y_pred == 'Patient Has Breast Cancer' %}
-        <div class="mt-4 text-center">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KyeiZJrWrys?si=BjWDWL-obDGkR132" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        {% else %}
-        <div class="mt-4 text-center">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KyeiZJrWrys?si=BjWDWL-obDGkR132" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        {% endif %}
+    <section class="display-hospitals">
+        <h1 class="section-title">Displaying The 5 Nearest Hospitals</h1>
+        <ul class="hospital-list">
+            {% for hospital, info in nearby_hospitals.items() %}
+            <li class="hospital-item">
+                <h3 class="hospital-name">{{ hospital }}</h3>
+                <p class="hospital-address"><strong>Address:</strong> {{ info.Address }}</p>
+            </li>
+            {% endfor %}
+        </ul>
     </section>
+        
 
     <section class="footer">
         <div class="search">
@@ -87,7 +88,7 @@
             <a href="#blog">blog</a>
         </div>
         <div class="credit">
-            creaated by <span>Nizami Sevindi</span> | all rights reserved!
+            creaated by <span>Aryan Kamani, Athul Srivatsava, Daksh Agiwal</span> | all rights reserved!
         </div>
     </section>
     <!-- -------------------------------------------FOOTER SECTION -->

@@ -263,9 +263,6 @@ a{
 
 .home{
     min-height: 100vh;
-    background: url(./image/pizza-with-turkey-bacon-orange-and-cashew-nuts-2022-03-29-07-33-54-utc.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
     margin-top: -134px;
     display: flex;
     align-items: center;
@@ -287,7 +284,13 @@ a{
     padding: 1rem 0;
     color: #fff;
 }
-
+.positioned-image {
+    width: 450px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image absolutely within the section */
+    top: 260px; /* Adjust the top position */
+    right: 80px; /* Adjust the right position */
+}
 /* ------------------------------------------HOME SECTION */
 
 /* ------------------------------------------chatbot SECTION */
@@ -651,7 +654,28 @@ a{
 /* Styling for about_trees.html page */
 
 .form-container {
-    background-color: #fff;
+    background-color: #2724e5;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width:fit-content;
+    position:relative;
+    top: 50%; /* Position it 50% down from the top of the viewport */
+    left: 23%;
+    text-align: center;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(89.97deg,#AE67FA 1.84%, rgb(227, 46, 106));
+    -webkit-background-clip: text; /* Use the text as a mask for the background */
+    background-clip: text; /* Use the text as a mask for the background */
+    color: transparent;
+}
+
+.form-container2 {
+    background-color: #2724e5;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 20px;
@@ -660,10 +684,14 @@ a{
     text-align: center;
 }
 
-.form-container h1 {
+.form-container3 {
+    background-color: #2724e5;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width:fit-content;
+    position: relative;
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
 }
 
 
@@ -685,7 +713,10 @@ a{
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #555;
+    background: white;
+    -webkit-background-clip: text; /* Use the text as a mask for the background */
+    background-clip: text; /* Use the text as a mask for the background */
+    color: transparent;
 }
 
 .form-group input {
@@ -720,6 +751,50 @@ a{
     margin-top: 5px;
 }
 
+/* Style the section */
+.display-hospitals {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px; /* Adjust the width as needed */
+}
+
+.display-hospitals h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #141313; /* Adjust the color as needed */
+    margin-bottom: 20px;
+}
+
+/* Style the list */
+.hospital-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style list items */
+.hospital-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Style headings */
+.hospital-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Style address */
+.hospital-address {
+    font-size: 14px;
+    margin: 0;
+}
+
 /* Styles for the .details section */
 /* CSS styles to create a smooth color transition for the background */
 .details {
@@ -739,7 +814,14 @@ a{
 }
 
 /* Additional styles for your .details section if needed */
+ul.list-group {
+    list-style-type: disc; /* Use disc for bullet points */
+}
 
+.list-group-item {
+    /* Add styles for list items if needed */
+    font-size: small;
+}
 
 /* CSS for changing the color of "Upload CSV File" */
 .upload-section h2 {
@@ -940,12 +1022,6 @@ button[type="submit"] {
     font-weight: bold;
 }
 
-/* Styling the Modal */
-.popover-container {
-    position: relative;
-    display: inline-block;
-}
-
 /* Button */
 .popover-button {
     background-color: #007bff;
@@ -954,30 +1030,42 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 200px;
 }
 
-/* Popover content */
+/* Style the popover container */
+.popover-container {
+    position: relative;
+    display: inline-block; /* Display button and content inline */
+}
+
+/* Style the popover content */
 .popover-content {
     position: absolute;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #eef1f3;
+    color: #0e0d0d;
     padding: 10px;
     border-radius: 5px;
-    width: 200px;
+    width: 800px;
     text-align: center;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
-    z-index: 1;
-    top: calc(100% + 10px);
-    left: 0;
+    z-index: 10;
+    top: -300px; /* Position below the button */
+    left: -600px;
 }
 
 /* Show popover on button hover */
 .popover-container:hover .popover-content {
-    opacity: 1;
+    opacity: 10;
     visibility: visible;
 }
+
+.popover-container:hover .popover-button {
+    background-color: #0056b3;
+}
+
 
   
   
