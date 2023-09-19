@@ -9,6 +9,13 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Our Products | Nizami Sevindi</title>
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script defer src="static/script2.js"></script>
 </head>
 <body>
@@ -56,24 +63,15 @@
             <div class="blog-content">
                 <h2>Explaining Decision Trees</h2>
                 <p>This is the content of Blog Post 3. It can be a brief description or introduction.</p>
-                <button class="btn-read-more">Read More</button>
+                <div class="popover-container">
+                    <button class="popover-button">Show Popover</button>
+                    <div class="popover-content">This is a simple popover.</div>
+                </div>
             </div>
         </div>
     </section>
     <section>
-        <button data-modal-target="#modal"> Open Modal</button>
-        <div class="modal active1" id="modal">
-            <div class="modal-header">
-                <div class="title"> Example Modal</div>
-                <button data-close-button class="close-button">&times;</button>
-            </div>
-            <div class="modal-body">
-                Text text Text text. There is nothing much to say. Except that I hope this works.
-                I really want to give my best shot in this. I want to learn Javascript.
-                help me do so. Intrusive Thoughts.
-            </div>
-        </div>
-        <div class="active1" id="overlay"></div>
+
     </section>
 <!-- -------------------------------------------FOOTER SECTION -->
     <section class="footer">
@@ -87,12 +85,13 @@
         </div>
         <div class="links">
             <a href="#home">home</a>
-            <a href="#about">about</a>
             <a href="#chatbot">chatbot</a>
-            <a href="#model">model</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
+            <a href="#form">model</a>
+            <a href="#ocr">review</a>
+            <a href="#trees">contact</a>
+            <a href="#lrp">blog</a>
             <a href="#blog">blog</a>
+            <a href="#contact">blog</a>
         </div>
         <div class="credit">
             creaated by <span>Nizami Sevindi</span> | all rights reserved!

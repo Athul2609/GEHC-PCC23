@@ -8,11 +8,12 @@
   
   body {
     /* Set the background gradient */
-    background-image: linear-gradient(to right, #0358a2, #021652); /* Adjust the colors as needed */
+    background-image: url('True_Wallpaper.jpg') ;/* Adjust the colors as needed */
     /* You can specify the background size, repeat, and position as needed */
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 16px;
     /* You can adjust other background properties as needed */
 }
 
@@ -75,7 +76,7 @@ a{
 .heading{
     color: #f6f2f2;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-bottom: 3.5rem;
     border-bottom: 0.1rem solid #fff;
 }
@@ -670,6 +671,12 @@ a{
 
 /* Styling for the model page */
 
+.grid-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* Adjust the gap between columns */
+}
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -699,6 +706,18 @@ a{
 
 .form-group input[type="generate"]:hover {
     background-color: #0056b3;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style for error messages (if needed) */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 /* Styles for the .details section */
@@ -750,92 +769,6 @@ h2.fade-in {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
 }
 
-
-
-
-/* Add more particles with different positions and animation durations */
-.particle {
-    position: absolute;
-    background-color: #fff; /* Particle color (white in this case) */
-    width: 10px;
-    height: 10px;
-    border-radius: 50%; /* Makes the particle circular */
-    animation: moveParticle 5s linear infinite, fadeOut 5s linear infinite, scaleParticle 5s ease-in-out infinite;/* Combine animation for movement and fading */
-}
-
-@keyframes scaleParticle {
-    0% {
-        transform: scale(1); /* Initial size */
-    }
-    70% {
-        transform: scale(1.5); /* Scaled up size */
-    }
-    100% {
-        transform: scale(1); /* Back to the initial size */
-    }
-}
-
-@keyframes moveParticle {
-    0% {
-        top: 100vh; /* Start at the bottom of the body */
-    }
-    100% {
-        top: 0;
-    }
-}
-
-@keyframes fadeOut {
-    0% {
-        opacity: 0.8;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.particle:nth-child(1) {
-    left: 10%;
-    animation-delay: 0s; /* Delay the animation for the first particle */
-}
-
-.particle:nth-child(2) {
-    left: 20%;
-    animation-delay: 1s; /* Delay the animation for the second particle by 1 second */
-}
-
-.particle:nth-child(3) {
-    left: 30%;
-    animation-delay: 2s; /* Delay the animation for the third particle by 2 seconds */
-}
-
-.particle:nth-child(4) {
-    left: 40%;
-    animation-delay: 3s; /* Delay the animation for the fourth particle by 3 seconds */
-}
-
-.particle:nth-child(5) {
-    left: 50%;
-    animation-delay: 4s; /* Delay the animation for the fifth particle by 4 seconds */
-}
-
-.particle:nth-child(6) {
-    left: 60%;
-    animation-delay: 2s; /* Delay the animation for the sixth particle by 2 seconds */
-}
-.particle:nth-child(7) {
-    left: 70%;
-    animation-delay: 3s; /* Delay the animation for the fourth particle by 3 seconds */
-}
-
-.particle:nth-child(8) {
-    left: 80%;
-    animation-delay: 4s; /* Delay the animation for the fifth particle by 4 seconds */
-}
-
-.particle:nth-child(9) {
-    left: 90%;
-    animation-delay: 2s; /* Delay the animation for the sixth particle by 2 seconds */
-}
 
 /* Add more particles with different starting positions */
   /* Styles for the line */
@@ -1007,65 +940,47 @@ button[type="submit"] {
     font-weight: bold;
 }
 
-.modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
-    z-index: 10;
-    background-color: white;
-    width: 500px;
-    max-width:80%;
+/* Styling the Modal */
+.popover-container {
+    position: relative;
+    display: inline-block;
 }
 
-.modal.active1 {
-    transform: translate(-50% , -50%) scale(1);
-}
-
-.modal-header {
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-}
-
-.modal-header .title {
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-.modal-header .close-button {
-    cursor: pointer;
+/* Button */
+.popover-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
     border: none;
-    outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.modal-body {
-    padding: 10px 15px;
-}
-
-#overlay {
-    position: fixed;
-    transition: 200ms ease-in-out;
-    top: 0;
+/* Popover content */
+.popover-content {
+    position: absolute;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1;
+    top: calc(100% + 10px);
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,.5);
-    pointer-events: none;
 }
 
-#overlay.active1 {
-    pointer-events: all;
+/* Show popover on button hover */
+.popover-container:hover .popover-content {
     opacity: 1;
+    visibility: visible;
 }
+
+  
+  
 
 
 
