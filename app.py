@@ -137,8 +137,6 @@ def process_image():
             X_test=extract_attributes_from_image(temp_image_path)
 
             # Clean up the temporary image file
-            
-
             X_test=np.array(X_test)
             with open("sample.txt", "w") as output_file:
                 y_pred = explain_predict([X_test], loaded_model, output_file)
@@ -188,7 +186,7 @@ def upload():
         default="./output/",
     )
     parser.add_argument(
-        "-b", "--batch-size", dest="batch_size", help="Batch size.", default=2, type=int
+        "-b", "--batch-size", dest="batch_size", help="Batch size.", default=1, type=int
     )
     parser.add_argument(
         "-d",
@@ -220,44 +218,60 @@ def upload():
 
     pathlib.Path(config.output_dir).mkdir(parents=True, exist_ok=True)
     
-    if 'file' not in request.files:
+    if 'files[]' not in request.files:
         return redirect(url_for('lrp'))
 
-    file = request.files['file']
-
-    if file.filename == '':
-        return redirect(url_for('lrp'))
+    uploaded_files = request.files.getlist('files[]')
+    print(uploaded_files)
+    for file in uploaded_files:
+        if file.filename != '':
+            # Save the uploaded file to the UPLOAD_FOLDER
+            file.save(os.path.join(app.config['INPUT_FOLDER'], file.filename))
+    #return redirect(url_for('lrp'))
 
     if file:
         # Save the uploaded file to the INPUT_FOLDER
-        input_folder_list = os.listdir(app.config['INPUT_FOLDER'])
-        if len(input_folder_list) > 2:
-            for i in range(len(input_folder_list)):
-                os.remove(os.path.join("input/cats",input_folder_list[i]))
-                
-        print(input_folder_list)
-        input_filename = os.path.join(app.config['INPUT_FOLDER'], file.filename)
-        file.save(input_filename)
-        # Perform transformations on the image (example: resizing)
-        transformed_image = per_image_lrp(config)
         
+        
+
+        input_folder_list = sorted(os.listdir(app.config['INPUT_FOLDER']), key=lambda x: os.path.getctime(os.path.join(app.config['INPUT_FOLDER'], x)))
+        
+        len_list = len(input_folder_list)
+        delete_folder_list = input_folder_list[:(len_list-2)]
+        for i in range(len(delete_folder_list)):
+                os.remove(os.path.join("input/cats",delete_folder_list[i]))
+                
+        input_folder_list = sorted(os.listdir(app.config['INPUT_FOLDER']), key=lambda x: os.path.getctime(os.path.join(app.config['INPUT_FOLDER'], x)))
+        # Perform transformations on the image (example: resizing)
+        transformed_image_list = per_image_lrp(config)
+        
+        for i in range(len(transformed_image_list)):
+            transformed_image_list[i] = transformed_image_list[i].detach().cpu().numpy()
+            
+        print(transformed_image_list)
         # Save the transformed image to the OUTPUT_FOLDER
-        transformed_image = transformed_image.detach().cpu().numpy()
-        original_image = plt.imread(os.path.join(app.config['INPUT_FOLDER'], file.filename))
-        pred = final_dr_pred(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image.png'),os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image.png'))
-        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image.png'), original_image)
-        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image.png'), transformed_image, cmap='afmhot')
+        original_image_1 = plt.imread(os.path.join(app.config['INPUT_FOLDER'], input_folder_list[0]))
+        original_image_2 = plt.imread(os.path.join(app.config['INPUT_FOLDER'], input_folder_list[1]))
+        
+        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image_left.png'), original_image_1)
+        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image_right.png'), original_image_2)
+        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image_left.png'), transformed_image_list[0], cmap='afmhot')
+        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image_right.png'), transformed_image_list[1], cmap='afmhot')
+        
+        pred=final_dr_pred(original_image_1,original_image_2)
+        pred = pred[0]
+        pred_left , pred_right = pred
         images = []
         output_folder = 'static'
         for filename in os.listdir(output_folder):
-            if filename=='original_image.png':
+            if filename=='original_image_left.png' or filename=='original_image_right.png':
                 images.append(os.path.join(output_folder, filename))
         for filename in os.listdir(output_folder):
-            if filename=='transformed_image.png':
+            if filename=='transformed_image_left.png' or filename=='transformed_image_right.png':
                 images.append(os.path.join(output_folder, filename))
         print(images)
         
-        return render_template('lrp.html', images=images, pred = pred)
+        return render_template('lrp.html', images=images, pred_left=pred_left, pred_right=pred_right)
 
 @app.route('/output/<filename>')
 def output_file(filename):
@@ -334,16 +348,17 @@ def per_image_lrp(config: argparse.Namespace) -> None:
     model.to(device)
 
     lrp_model = LRPModel(model=model, top_k=config.top_k)
-
+    output = []
     for i, (x, y) in enumerate(data_loader):
         x = x.to(device)
         # y = y.to(device)  # here not used as method is unsupervised.
 
         t0 = time.time()
         r = lrp_model.forward(x)
+        output.append(r)
         print("{time:.2f} FPS".format(time=(1.0 / (time.time() - t0))))
 
-    return r
+    return output
 
 if __name__ == '__main__':
     app.run(debug=True)

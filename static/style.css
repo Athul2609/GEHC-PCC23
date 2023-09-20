@@ -436,7 +436,7 @@ a{
 /* ------------------------------------------CONTACT SECTION */
 .contact .row{
     display: flex;
-    background-color: var(--black-color);
+    background-color:blue ;
     flex-wrap: wrap;
     gap: 1rem;
 }
