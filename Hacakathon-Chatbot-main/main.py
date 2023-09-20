@@ -18,7 +18,7 @@ import keys
 import speech_recognition as sr
 import os
 import threading
-import pyaudio
+#import pyaudio
 
 recognizer = sr.Recognizer()
 

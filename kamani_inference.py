@@ -150,11 +150,7 @@ def make_prediction(model, input):
         preds.append(predictions.cpu().numpy())
     return preds
 
-def final_dr_pred(left_eye_path,right_eye_path):
-    left_eye_image = Image.open(left_eye_path)
-    right_eye_image = Image.open(right_eye_path)
-    left_eye_image = np.array(left_eye_image)
-    right_eye_image = np.array(right_eye_image)
+def final_dr_pred(left_eye_image,right_eye_image):
 
 
     left_eye_image = val_transforms(image=left_eye_image)["image"]

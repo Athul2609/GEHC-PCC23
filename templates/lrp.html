@@ -13,7 +13,7 @@
 <body> <!-- Change background color to blue-100 -->
     <header class="header" >
         <a href="#" class="logo">
-            <img src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}" alt="logo">
+            <img src="{{ url_for('static', filename='Logo.gif') }}" alt="logo">
         </a>
         <nav class="navbar">
             <a href="./">home</a>
@@ -22,7 +22,7 @@
             <a href="./process_image">OCR</a>
             <a href="./about_trees">Trees</a>
             <a href="./lrp"  class="active">LRP</a>
-            <a href="./contact.html">contact</a>
+            <a href="./contact">contact</a>
             <a href="./blog">blog</a>
         </nav>
     
@@ -32,7 +32,8 @@
             <h1 class="white-text">Layer Wise Relevance Propagation</h1>
             <form method="POST" enctype="multipart/form-data" action="/upload">
                 <div>
-                    <input class="form-control" type="file" name="file">
+                    <!-- Add the 'multiple' attribute to allow multiple image selection -->
+                    <input class="form-control" type="file" name="files[]" multiple>
                 </div>
                 <button class="btn btn-primary" type="submit">Upload</button>
             </form>
@@ -56,8 +57,12 @@
             {% endif %}
         </div>
     </section>
-
-   <section class="footer">
+    <section>
+        <h1 class="image-caption white-text">True label for left eye : {{ pred_left }}</h1> 
+        <h1 class="image-caption white-text">True label for right eye : {{ pred_right }}</h1>
+        <h1 class="image-caption white-text">Accuracy of the model : 81.3 %</h1>
+    <section>
+<section class="footer">
     <div class="search">
         <input type="text" class="search-input" placeholder="Search">
         <button class="btn btn-primary">search</button>
@@ -66,23 +71,12 @@
         <a href="#" class="fab fa-linkedin"></a>
         <a href="#" class="fab fa-github"></a>
     </div>
-    <div class="links">
-        <a href="#home">home</a>
-        <a href="#chatbot">chatbot</a>
-        <a href="#form">model</a>
-        <a href="#ocr">review</a>
-        <a href="#trees">contact</a>
-        <a href="#lrp">blog</a>
-        <a href="#blog">blog</a>
-        <a href="#contact">blog</a>
-    </div>
     <div class="credit">
-        creaated by <span>Nizami Sevindi</span> | all rights reserved!
+        creaated by <span>Aryan Kamani, Athul Srinivas, Daksh Agiwal</span> | all rights reserved!
     </div>
 </section>
-<!-- -------------------------------------------FOOTER SECTION -->
 
-<script src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}"></script>
-
+    
+<script src="./script.js"></script>
 </body>
 </html>

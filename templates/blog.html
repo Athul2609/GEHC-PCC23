@@ -23,7 +23,7 @@
     <!-------------------------------------------- HEADER SECTION -->
     <header class="header" >
         <a href="#" class="logo">
-            <img src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}" alt="logo">
+            <img src="{{ url_for('static', filename='Logo.gif') }}" alt="logo">
         </a>
         <nav class="navbar">
             <a href="./">home</a>
@@ -44,8 +44,16 @@
             <img src="static/images/AI_2.jpeg" alt="Explaining Images">
             <div class="blog-content">
                 <h2>Explaining Images</h2>
-                <p>This is the content of Blog Post 1. It can be a brief description or introduction.</p>
-                <button class="btn-read-more">Read More</button>
+                <p>In the Explainable AI domain, many techniques were devised in an attempt to explain the innver workings of CNNs and understanding how they are classifying images. A few techniques such as SHAP (Shapley Additive Explanations), LRP (Layer-Wise-Relevance Propagation), CAM (Class Activation Maps) and so on. </p>
+                <div class="popover-container">
+                    <button class="popover-button2">Read More</button>
+                    <div class="popover-content2">Decision trees are a popular machine learning algorithm used for both classification and regression tasks.
+                         They create a tree-like structure of decisions based on input features to make predictions or classify data.
+                        We find that decision trees are very transparent in the way they are being computed, as we can clearly see each node making a decsion that leads to the final prediction.
+                    We use OCR (Optical Character Recognition) on the decsion tree generated after training the model. We extract all the decsions made by the tree and using an algorithm, 
+                    lead to a conclusion as to what features lead to the prediction of the model. Similarly we pply the same concept to Random Forest Classifier.
+                Multiple decision trees can be generated and </div>
+                </div>
             </div>
         </div>
         
@@ -53,8 +61,16 @@
             <img src="static/images/Chatbot.jpeg" alt="Chatbot">
             <div class="blog-content">
                 <h2>Chatbot</h2>
-                <p>This is the content of Blog Post 2. It can be a brief description or introduction.</p>
-                <button class="btn-read-more">Read More</button>
+                <p>A chatbot is a computer program or artificial intelligence (AI) application designed to simulate human-like conversations with users. It interacts with users through text or voice-based interfaces, providing information, answering questions, and performing tasks based on predefined commands or through machine learning algorithms.</p>
+                <div class="popover-container">
+                    <button class="popover-button2">Read More</button>
+                    <div class="popover-content2">Decision trees are a popular machine learning algorithm used for both classification and regression tasks.
+                         They create a tree-like structure of decisions based on input features to make predictions or classify data.
+                        We find that decision trees are very transparent in the way they are being computed, as we can clearly see each node making a decsion that leads to the final prediction.
+                    We use OCR (Optical Character Recognition) on the decsion tree generated after training the model. We extract all the decsions made by the tree and using an algorithm, 
+                    lead to a conclusion as to what features lead to the prediction of the model. Similarly we pply the same concept to Random Forest Classifier.
+                Multiple decision trees can be generated and </div>
+                </div>
             </div>
         </div>
         
@@ -64,20 +80,17 @@
                 <h2>Explaining Decision Trees</h2>
                 <p>This is the content of Blog Post 3. It can be a brief description or introduction.</p>
                 <div class="popover-container">
-                    <button class="popover-button">Read More</button>
-                    <div class="popover-content">Decision trees are a popular machine learning algorithm used for both classification and regression tasks.
+                    <button class="popover-button1">Read More</button>
+                    <div class="popover-content1">Decision trees are a popular machine learning algorithm used for both classification and regression tasks.
                          They create a tree-like structure of decisions based on input features to make predictions or classify data.
                         We find that decision trees are very transparent in the way they are being computed, as we can clearly see each node making a decsion that leads to the final prediction.
                     We use OCR (Optical Character Recognition) on the decsion tree generated after training the model. We extract all the decsions made by the tree and using an algorithm, 
-                    lead to a conclusion as to what features lead to the prediction of the model. </div>
+                    lead to a conclusion as to what features lead to the prediction of the model. Similarly we pply the same concept to Random Forest Classifier.
+                Multiple decision trees can be generated and </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-
-    </section>
-<!-- -------------------------------------------FOOTER SECTION -->
     <section class="footer">
         <div class="search">
             <input type="text" class="search-input" placeholder="Search">
@@ -87,21 +100,11 @@
             <a href="#" class="fab fa-linkedin"></a>
             <a href="#" class="fab fa-github"></a>
         </div>
-        <div class="links">
-            <a href="#home">home</a>
-            <a href="#chatbot">chatbot</a>
-            <a href="#form">model</a>
-            <a href="#ocr">review</a>
-            <a href="#trees">contact</a>
-            <a href="#lrp">blog</a>
-            <a href="#blog">blog</a>
-            <a href="#contact">blog</a>
-        </div>
         <div class="credit">
-            creaated by <span>Aryan Kamani, Athul Srivatsava, Daksh Agiwal</span> | all rights reserved!
+            creaated by <span>Aryan Kamani, Athul Srinivas, Daksh Agiwal</span> | all rights reserved!
         </div>
     </section>
-    <!-- -------------------------------------------FOOTER SECTION -->
+
 
 <script src="{{ url_for('static', filename='script.js') }}"></script>
 <script src="{{ url_for('static', filename='script2.js') }}"></script>
