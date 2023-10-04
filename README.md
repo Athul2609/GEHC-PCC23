@@ -11,6 +11,7 @@ Our first idea revolves around creating a model capable of explaining images. Th
 
 ### 2. OCR applied to Decision Trees - A Model that explains Textual Data
 The second component of our project is dedicated to explaining textual data. This model will generate explanations to make the output of AI algorithms on textual data more interpretable and transparent for users.
+![Alt Text](https://private-user-images.githubusercontent.com/111687365/272557286-3980b16e-3e88-4eb4-8cf6-26eaa4ac0751.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTY0MTg5NjEsIm5iZiI6MTY5NjQxODY2MSwicGF0aCI6Ii8xMTE2ODczNjUvMjcyNTU3Mjg2LTM5ODBiMTZlLTNlODgtNGViNC04Y2Y2LTI2ZWFhNGFjMDc1MS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMDA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTAwNFQxMTI0MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NGRiNTQ4OTEzMWZlMzk1YzBiN2QzMTg0YmZiZGNlYmMwZGI5YTY2MWFjYjIyOWNkMGY1YWIyZDI3ZTU5MjI0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Q7Hpn6M8xlLv_tl4FkJG9dXvEK5U2NNBg3J4eO9_0YE)
 
 ### 3. Interactive Chatbot
 To facilitate user-friendly interactions, we have implemented a chatbot. This chatbot serves as an interface for users to interact with our AI models seamlessly. Users can ask questions, seek explanations, and receive responses in a user-friendly manner, to the explanations given by the OCR with Random Forest Model.
