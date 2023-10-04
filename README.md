@@ -13,7 +13,7 @@ The second component of our project is dedicated to explaining textual data. Thi
 
 ### 3. Interactive Chatbot
 To facilitate user-friendly interactions, we have implemented a chatbot. This chatbot serves as an interface for users to interact with our AI models seamlessly. Users can ask questions, seek explanations, and receive responses in a user-friendly manner, to the explanations given by the OCR with Random Forest Model.
-![Alt Text]()
+![Alt Text](https://private-user-images.githubusercontent.com/111687365/272555638-12164b56-10d1-4391-8489-b95da9da0419.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTY0MTg0MzgsIm5iZiI6MTY5NjQxODEzOCwicGF0aCI6Ii8xMTE2ODczNjUvMjcyNTU1NjM4LTEyMTY0YjU2LTEwZDEtNDM5MS04NDg5LWI5NWRhOWRhMDQxOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMDA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTAwNFQxMTE1MzhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00OWQ4ZWI5NTY1Nzg2OTliODlhOGUwNTJiN2M2MTA0YmRmZDU4NGJiZDkwNGE0NmMxNTNmNmIyMWZjZTMzMjk1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.NXpiUjkJ31ZvCJyF_nqG_7xJ4qnCJf9QkoDPw8j7SXA)
 
 ## Usage
 
