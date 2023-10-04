@@ -13,6 +13,7 @@ The second component of our project is dedicated to explaining textual data. Thi
 
 ### 3. Interactive Chatbot
 To facilitate user-friendly interactions, we have implemented a chatbot. This chatbot serves as an interface for users to interact with our AI models seamlessly. Users can ask questions, seek explanations, and receive responses in a user-friendly manner, to the explanations given by the OCR with Random Forest Model.
+![Alt Text]()
 
 ## Usage
 
