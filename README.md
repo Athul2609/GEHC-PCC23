@@ -7,6 +7,7 @@ This repository contains the code and resources for our GEHC PCC 2023 Finals Pro
 
 ### 1. Layer Wise Relevance Propagation - An Image Explanation Technique
 Our first idea revolves around creating a model capable of explaining images. This module aims to enhance understanding by providing human-readable explanations for the decisions made by the AI system when processing images.
+![Alt Text](https://private-user-images.githubusercontent.com/111687365/272556366-961cb52a-64a5-466a-94eb-918047442d84.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTY0MTg4NzEsIm5iZiI6MTY5NjQxODU3MSwicGF0aCI6Ii8xMTE2ODczNjUvMjcyNTU2MzY2LTk2MWNiNTJhLTY0YTUtNDY2YS05NGViLTkxODA0NzQ0MmQ4NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMDA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTAwNFQxMTIyNTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NTM0OWEzOGIzY2UxNWJmMjRiNmEyODRlMTc2MGYyYjg1NTA4N2ExZGZlYTk1ZTA5YTAwZGE1ZWU4ODNjMWY2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Fdibf2XH99_sXZ3rEIX0CILzEQAQkwCvQnp4uTCVgA8)
 
 ### 2. OCR applied to Decision Trees - A Model that explains Textual Data
 The second component of our project is dedicated to explaining textual data. This model will generate explanations to make the output of AI algorithms on textual data more interpretable and transparent for users.
