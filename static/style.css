@@ -2,29 +2,32 @@
 
 :root {
     /* Remove the --main-color */
-    --black-color: #f1e2e2;
+    --black-color: #f2f2f5;
     --border: 1rem solid rgba(255, 255, 255, 0.4);
   }
   
   body {
-    /* Set the background image */
-    background-image: url('Background.jpg');
-    /* Specify the background size and other properties as needed */
-    background-size: cover;
+    /* Set the background gradient */
+    background-image: url('True_Wallpaper.jpg') ;/* Adjust the colors as needed */
+    /* You can specify the background size, repeat, and position as needed */
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    animation: moveBackground 30s linear infinite;
+    font-size: 16px;
+    animation: translateBackground 30s linear infinite;
     /* You can adjust other background properties as needed */
-  }
+}
 
-  @keyframes moveBackground {
-    0%, 100% {
-        background-position: 0 0; /* Start with the background at its original position and also reset at 100% */
+@keyframes translateBackground {
+    0% {
+        background-position: 0% center;
     }
-    50% {
-        background-position: 100% 0; /* Move the background 100% horizontally at 50% of the animation */
+    100% {
+        background-position: 100% center;
     }
 }
+
+
 
 *{
     font-family: 'Poppins',sans-serif;
@@ -83,7 +86,7 @@ a{
 .heading{
     color: #f6f2f2;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-bottom: 3.5rem;
     border-bottom: 0.1rem solid #fff;
 }
@@ -270,9 +273,6 @@ a{
 
 .home{
     min-height: 100vh;
-    background: url(./image/pizza-with-turkey-bacon-orange-and-cashew-nuts-2022-03-29-07-33-54-utc.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
     margin-top: -134px;
     display: flex;
     align-items: center;
@@ -293,6 +293,91 @@ a{
     line-height: 1.8;
     padding: 1rem 0;
     color: #fff;
+}
+
+.positioned-image {
+    width: 450px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image absolutely within the section */
+    top: 260px; /* Adjust the top position */
+    right: 80px; /* Adjust the right position */
+    opacity: 0;
+    animation: zoomIn 1.2s ease forwards, floatImage 3s ease-in-out infinite;
+    animation-delay: 0.8s, 2s;
+    animation-fill-mode: forwards;
+}
+
+.content h1 {
+    color: rgb(248, 252, 252);
+    font-size: 38px; /* Increase the font size to your desired value */
+    margin-left: 100px; /* Adjust the margin to move it to the right */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: slideTop 1.2s ease forwards;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.content h2 {
+    color: rgb(248, 253, 252);
+    font-size: 20px; /* Increase the font size to your desired value */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    margin-bottom: 13px;
+    opacity: 0;
+    animation: slideBottom 1.2s ease forwards;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-24px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
 }
 
 /* ------------------------------------------HOME SECTION */
@@ -440,7 +525,7 @@ a{
 /* ------------------------------------------CONTACT SECTION */
 .contact .row{
     display: flex;
-    background-color: var(--black-color);
+    background-color: rgb(13, 13, 223);
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -533,7 +618,7 @@ a{
 
 /* ------------------------------------------FOOTER SECTION */
 .footer {
-    background-color: var(--black-color);
+    background-image: linear-gradient(to right, #0358a2, #021652);
     text-align: center;
 }
 
@@ -629,7 +714,7 @@ a{
         display: inline-block;
     }
     .header .navbar{
-        position: absolute;
+        position:absolute;
         top: 100%;
         background-color: #ececec;
         height: calc(100vh - 9rem);
@@ -655,18 +740,81 @@ a{
     }
 }
 
+/* Styling for about_trees.html page */
+
 .form-container {
-    background-color: #fff;
+    background-color: #2724e5;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 20px;
-    width: 400px;
+    width:fit-content;
+    position:relative;
+    top: 50%; /* Position it 50% down from the top of the viewport */
+    left: 23%;
+    text-align: center;
 }
 
 .form-container h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    background: linear-gradient(89.97deg,#AE67FA 1.84%, rgb(227, 46, 106));
+    -webkit-background-clip: text; /* Use the text as a mask for the background */
+    background-clip: text; /* Use the text as a mask for the background */
+    color: transparent;
+}
+
+.form-container2 {
+    background-color: #efeff2;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    position: relative;
+    text-align: center;
+    border: 6px solid #1009de; /* Add a 2px solid black border */
+}
+
+.form-container3 {
+    /* Add any other styles for the container as needed */
+    text-align: center;
+}
+
+.form-container3 .form-tag{
+    /* Add any other styles for the container as needed */
+    color: white;
+}
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create a 3x3 grid with equal columns */
+    gap: 20px; /* Adjust the gap between images as needed */
+}
+
+.image {
+    max-width: 30%;
+    display: inline-block; /* Display the trees in a row */
+    margin: 0 10px;
+    /* Add any styles for individual images as needed */
+}
+
+/* Ensure responsive behavior for smaller screens */
+@media (max-width: 768px) {
+    .image-tree {
+        max-width: 100%; /* Allow each tree to take full width on smaller screens */
+        margin: 0 0 20px; /* Add margin for spacing below each tree */
+    }
+}
+
+
+
+
+/* Styling for the model page */
+
+.grid-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* Adjust the gap between columns */
 }
 
 .form-group {
@@ -677,7 +825,10 @@ a{
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #555;
+    background: white;
+    -webkit-background-clip: text; /* Use the text as a mask for the background */
+    background-clip: text; /* Use the text as a mask for the background */
+    color: transparent;
 }
 
 .form-group input {
@@ -700,6 +851,63 @@ a{
     background-color: #0056b3;
 }
 
+.form-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style for error messages (if needed) */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Style the section */
+.display-hospitals {
+    background-color: #0816e0;
+    padding: 20px;
+    border: 1px solid #1208d3;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px; /* Adjust the width as needed */
+}
+
+.display-hospitals h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fbf7fb; /* Adjust the color as needed */
+    margin-bottom: 20px;
+}
+
+/* Style the list */
+.hospital-list {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(11, 11, 11);
+}
+
+/* Style list items */
+.hospital-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Style headings */
+.hospital-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Style address */
+.hospital-address {
+    font-size: 14px;
+    margin: 0;
+}
+
 /* Styles for the .details section */
 /* CSS styles to create a smooth color transition for the background */
 .details {
@@ -719,7 +927,14 @@ a{
 }
 
 /* Additional styles for your .details section if needed */
+ul.list-group {
+    list-style-type: disc; /* Use disc for bullet points */
+}
 
+.list-group-item {
+    /* Add styles for list items if needed */
+    font-size: small;
+}
 
 /* CSS for changing the color of "Upload CSV File" */
 .upload-section h2 {
@@ -741,100 +956,18 @@ h2.fade-in {
     padding: 20px;
 }
 
-/* Style for the video container (iframe) */
 .video-container {
-    width: auto; /* Full width */
-    height: auto; /* Maintain aspect ratio */
-    border: none; /* Remove iframe border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-
-
-
-/* Add more particles with different positions and animation durations */
-.particle {
-    position: absolute;
-    background-color: #fff; /* Particle color (white in this case) */
-    width: 10px;
-    height: 10px;
-    border-radius: 50%; /* Makes the particle circular */
-    animation: moveParticle 5s linear infinite, fadeOut 5s linear infinite, scaleParticle 5s ease-in-out infinite;/* Combine animation for movement and fading */
+/* Style for the iframe */
+.video-frame {
+    border: 5px solid blue; /* Add a blue border around the iframe */
 }
 
-@keyframes scaleParticle {
-    0% {
-        transform: scale(1); /* Initial size */
-    }
-    70% {
-        transform: scale(1.5); /* Scaled up size */
-    }
-    100% {
-        transform: scale(1); /* Back to the initial size */
-    }
-}
-
-@keyframes moveParticle {
-    0% {
-        top: 100vh; /* Start at the bottom of the body */
-    }
-    100% {
-        top: 0;
-    }
-}
-
-@keyframes fadeOut {
-    0% {
-        opacity: 0.8;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.particle:nth-child(1) {
-    left: 10%;
-    animation-delay: 0s; /* Delay the animation for the first particle */
-}
-
-.particle:nth-child(2) {
-    left: 20%;
-    animation-delay: 1s; /* Delay the animation for the second particle by 1 second */
-}
-
-.particle:nth-child(3) {
-    left: 30%;
-    animation-delay: 2s; /* Delay the animation for the third particle by 2 seconds */
-}
-
-.particle:nth-child(4) {
-    left: 40%;
-    animation-delay: 3s; /* Delay the animation for the fourth particle by 3 seconds */
-}
-
-.particle:nth-child(5) {
-    left: 50%;
-    animation-delay: 4s; /* Delay the animation for the fifth particle by 4 seconds */
-}
-
-.particle:nth-child(6) {
-    left: 60%;
-    animation-delay: 2s; /* Delay the animation for the sixth particle by 2 seconds */
-}
-.particle:nth-child(7) {
-    left: 70%;
-    animation-delay: 3s; /* Delay the animation for the fourth particle by 3 seconds */
-}
-
-.particle:nth-child(8) {
-    left: 80%;
-    animation-delay: 4s; /* Delay the animation for the fifth particle by 4 seconds */
-}
-
-.particle:nth-child(9) {
-    left: 90%;
-    animation-delay: 2s; /* Delay the animation for the sixth particle by 2 seconds */
-}
 
 /* Add more particles with different starting positions */
   /* Styles for the line */
@@ -873,3 +1006,260 @@ h2.fade-in {
       } */
   }
 /* ------------------------------------------RESPONSIVE SECTION */
+
+/* Add styles for the form-container and output-image-container */
+.form-container-LRP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* style.css */
+.white-text {
+    color: white;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display images in two columns */
+    gap: 20px; /* Add some space between images */
+}
+
+.output-image-container {
+    margin:10px;
+}
+
+/* Style the uploaded image and button */
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-image-size {
+    max-width: 300px; /* Set the maximum width for the images */
+    height: 300px; /* Allow the height to adjust proportionally */
+}
+
+/* Add this CSS to your style.css */
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mb-4 {
+    margin-bottom: 1rem; /* You can adjust the margin as needed */
+}
+
+/* Add this CSS to your style.css */
+.image-caption {
+    text-align: center; /* Center-align the caption */
+    font-size: 18px;
+}
+
+.box-container-LRP {
+    border-radius: 25px; /* Add curved edges */
+    padding: 20px; /* Add padding to create space between the content and the border */
+    margin: 0 auto; /* Center the container horizontally on the page */
+    max-width: 800px; /* Set a maximum width for the container */
+    background: linear-gradient(to bottom, #0074d9, #610099); /* Add a blue gradient background */
+    border: 1px solid #0074d9; /* Border color matches the gradient */
+    max-height: auto;
+}
+
+
+::-webkit-file-upload-button{
+    color:white;
+    background: #007bff;
+    padding:20px;
+    border:none;
+    border-radius: 50px;
+    box-shadow: lpx 0 lpx lpx #6b4559;
+    outline:none;
+}
+
+::-webkit-file-upload-button:hover{
+    background: #0068d7;
+}
+
+/* Style the "blog.html" section */
+.blog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Style each individual "blog-box" */
+.blog-box {
+    width: 30%; /* Adjust the width as needed to fit three boxes in a row */
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Background color for the boxes */
+    border: 1px solid #ddd; /* Border for the boxes */
+    border-radius: 5px; /* Rounded corners for the boxes */
+}
+
+.blog-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-content {
+    padding: 20px 0;
+}
+
+.blog-content h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.blog-content p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.blog-content a {
+    text-decoration: none;
+    color: #0074d9;
+    font-weight: bold;
+}
+
+
+/* Style the popover container */
+.popover-container {
+    position: relative;
+    display: inline-block; /* Display button and content inline */
+}
+
+.popover-button1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+/* Style the popover content */
+.popover-content1 {
+    position: absolute;
+    background-color: #eef1f3;
+    color: #0e0d0d;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 10;
+    top: -400px; /* Position below the button */
+    left: -100px;
+}
+
+/* Show popover on button hover */
+.popover-container:hover .popover-content1 {
+    opacity: 10;
+    visibility: visible;
+}
+
+.popover-container:hover .popover-button1 {
+    background-color: #0056b3;
+}
+
+.popover-content2 {
+    position: absolute;
+    background-color: #eef1f3;
+    color: #0e0d0d;
+    padding: 10px;
+    border-radius: 5px;
+    width: 800px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 10;
+    top: -300px; /* Position below the button */
+    left: -600px;
+}
+
+.popover-button2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+/* Show popover on button hover */
+.popover-container:hover .popover-content2 {
+    opacity: 10;
+    visibility: visible;
+}
+
+.popover-container:hover .popover-button2 {
+    background-color: #0056b3;
+}
+
+.popover-content3 {
+    position: absolute;
+    background-color: #eef1f3;
+    color: #0e0d0d;
+    padding: 10px;
+    border-radius: 5px;
+    width: 800px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 10;
+    top: -300px; /* Position below the button */
+    left: -600px;
+}
+
+.popover-button3 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+/* Show popover on button hover */
+.popover-container:hover .popover-content3 {
+    opacity: 10;
+    visibility: visible;
+}
+
+.popover-container:hover .popover-button3 {
+    background-color: #0056b3;
+}
+
+
+  
+  
+
+
+
+
+

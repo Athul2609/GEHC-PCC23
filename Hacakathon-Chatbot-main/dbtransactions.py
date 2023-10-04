@@ -14,12 +14,12 @@ class TransactionFetcher:
             print("Error:", e)
 
     def fetch_transactions_by_user(self, customer_id, first_name, last_name):
-        query = "SELECT * FROM farmersindian WHERE farmerid = %s AND first_name = %s AND last_name = %s;"
+        query = "SELECT * FROM doctors;"
 
 
         with self.conn.cursor() as cursor:
-            cursor.execute(query, (customer_id, first_name, last_name))
-            result = cursor.fetchone()
+            cursor.execute(query)
+            result = cursor.fetchall()
             print(result)
             
             if result:
@@ -33,10 +33,10 @@ class TransactionFetcher:
             self.conn.close()
             print("Database connection closed.")
 
-    def process_request(self, customer_id, first_name, last_name):
+    def process_request(self, patient_id, first_name, last_name):
         
 
-        transactions = self.fetch_transactions_by_user(customer_id, first_name, last_name)
+        transactions = self.fetch_transactions_by_user(patient_id, first_name, last_name)
 
         if transactions:
             print(f"Transactions for {first_name} {last_name}:")

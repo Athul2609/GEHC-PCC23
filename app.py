@@ -22,9 +22,11 @@ import numpy as np
 from albumentations.pytorch import ToTensorV2
 import pandas as pd
 from PIL import Image
-
+import requests
+import geocoder
 import torch
 from torchvision.models import vgg16, VGG16_Weights
+from kamani_inference import final_dr_pred
 
 from src.data import get_data_loader
 from src.lrp import LRPModel
@@ -66,15 +68,29 @@ def breast_cancer_detection():
             y_pred = explain_predict([X_test], loaded_model, output_file)
         y_pred=res_dic[int(y_pred[0])]
         result = cleaner("sample.txt")
+        print("in app.py",y_pred)
 
         explanation_items = result.split('\n')[:-1]
         last_line= result.split('\n')[-1]
+        
+        location = get_current_location()
+        print(location)
+        if location:
+            latitude, longitude = location
+            print(f"Latitude: {latitude}, Longitude: {longitude}")
+        else:
+            print("Unable to retrieve location data.")
+            
+        radius = 2000
+        nearby_hospitals,length = get_nearby_hospitals(latitude, longitude, radius)
+        print(nearby_hospitals)
+        print(length)
 
         # Assign the list of explanation items to 'explanation_items' and the last line to 'last_line'
         # explanation_items, last_line = explanation_items if len(explanation_items) > 1 else ([], result)
 
         # Pass both 'explanation_items' and 'last_line' to the template
-        return render_template('result.html', y_pred=y_pred, explanation_items=explanation_items, last_line=last_line)
+        return render_template('result.html', y_pred=y_pred, explanation_items=explanation_items, last_line=last_line, nearby_hospitals = nearby_hospitals)
     
     return render_template('model.html', attribute_names=attribute_names)
 
@@ -89,6 +105,11 @@ def about():
 def index():
     
     return render_template('index.html')
+
+@app.route('/contact')
+def contact():
+    
+    return render_template('contact.html')
 
 @app.route('/process_image', methods=['GET', 'POST'])
 def process_image():
@@ -116,20 +137,20 @@ def process_image():
             X_test=extract_attributes_from_image(temp_image_path)
 
             # Clean up the temporary image file
-            
-
             X_test=np.array(X_test)
             with open("sample.txt", "w") as output_file:
                 y_pred = explain_predict([X_test], loaded_model, output_file)
             y_pred=res_dic[int(y_pred[0])]
             result = cleaner("sample.txt")
+            print("In app.py",y_pred)
 
             explanation_items = result.split('\n')[:-1]
             last_line= result.split('\n')[-1]
-
             # Assign the list of explanation items to 'explanation_items' and the last line to 'last_line'
             # explanation_items, last_line = explanation_items if len(explanation_items) > 1 else ([], result)
             os.remove(temp_image_path)
+            
+            # Adding the Location API funcitonality
             # Pass both 'explanation_items' and 'last_line' to the template
             return render_template('result.html', y_pred=y_pred, explanation_items=explanation_items, last_line=last_line)
         except Exception as e:
@@ -141,6 +162,10 @@ def process_image():
 @app.route('/lrp')
 def lrp():
     return render_template('lrp.html', output_image=None)
+
+@app.route('/blog')
+def blog():
+    return render_template('blog.html', output_image=None)
 
 @app.route('/upload', methods=['POST'])
 def upload():
@@ -193,48 +218,113 @@ def upload():
 
     pathlib.Path(config.output_dir).mkdir(parents=True, exist_ok=True)
     
-    if 'file' not in request.files:
+    if 'files[]' not in request.files:
         return redirect(url_for('lrp'))
 
-    file = request.files['file']
-
-    if file.filename == '':
-        return redirect(url_for('lrp'))
+    uploaded_files = request.files.getlist('files[]')
+    print(uploaded_files)
+    for file in uploaded_files:
+        if file.filename != '':
+            # Save the uploaded file to the UPLOAD_FOLDER
+            file.save(os.path.join(app.config['INPUT_FOLDER'], file.filename))
+    #return redirect(url_for('lrp'))
 
     if file:
         # Save the uploaded file to the INPUT_FOLDER
-        input_folder_list = os.listdir(app.config['INPUT_FOLDER'])
-        if len(input_folder_list) > 1:
-            print(len(input_folder_list))
-            for i in range(len(input_folder_list)):
-                os.remove(os.path.join("input/cats",input_folder_list[i]))
-            print(file.filename)
-        input_filename = os.path.join(app.config['INPUT_FOLDER'], file.filename)
-        file.save(input_filename)
+        
+        
 
+        input_folder_list = sorted(os.listdir(app.config['INPUT_FOLDER']), key=lambda x: os.path.getctime(os.path.join(app.config['INPUT_FOLDER'], x)))
+        
+        len_list = len(input_folder_list)
+        delete_folder_list = input_folder_list[:(len_list-2)]
+        for i in range(len(delete_folder_list)):
+                os.remove(os.path.join("input/cats",delete_folder_list[i]))
+                
+        input_folder_list = sorted(os.listdir(app.config['INPUT_FOLDER']), key=lambda x: os.path.getctime(os.path.join(app.config['INPUT_FOLDER'], x)))
         # Perform transformations on the image (example: resizing)
-        transformed_image = per_image_lrp(config)
-
+        transformed_image_list = per_image_lrp(config)
+        
+        for i in range(len(transformed_image_list)):
+            transformed_image_list[i] = transformed_image_list[i].detach().cpu().numpy()
+            
+        print(transformed_image_list)
         # Save the transformed image to the OUTPUT_FOLDER
-        transformed_image = transformed_image.detach().cpu().numpy()
-        original_image = plt.imread(os.path.join(app.config['INPUT_FOLDER'], file.filename))
-        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image.png'), original_image)
-        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image.png'), transformed_image, cmap='afmhot')
+        original_image_1 = plt.imread(os.path.join(app.config['INPUT_FOLDER'], input_folder_list[0]))
+        original_image_2 = plt.imread(os.path.join(app.config['INPUT_FOLDER'], input_folder_list[1]))
+        
+        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image_left.png'), original_image_1)
+        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'original_image_right.png'), original_image_2)
+        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image_left.png'), transformed_image_list[0], cmap='afmhot')
+        plt.imsave(os.path.join(app.config['OUTPUT_FOLDER'], 'transformed_image_right.png'), transformed_image_list[1], cmap='afmhot')
+        
+        pred=final_dr_pred(original_image_1,original_image_2)
+        pred = pred[0]
+        pred_left , pred_right = pred
         images = []
         output_folder = 'static'
         for filename in os.listdir(output_folder):
-            if filename=='original_image.png':
+            if filename=='original_image_left.png' or filename=='original_image_right.png':
                 images.append(os.path.join(output_folder, filename))
         for filename in os.listdir(output_folder):
-            if filename=='transformed_image.png':
+            if filename=='transformed_image_left.png' or filename=='transformed_image_right.png':
                 images.append(os.path.join(output_folder, filename))
         print(images)
         
-        return render_template('lrp.html', images=images)
+        return render_template('lrp.html', images=images, pred_left=pred_left, pred_right=pred_right)
 
 @app.route('/output/<filename>')
 def output_file(filename):
     return send_from_directory(app.config['OUTPUT_FOLDER'], filename)
+
+
+def get_nearby_hospitals(latitude, longitude, radius):
+    overpass_url = "https://overpass-api.de/api/interpreter"
+    query = f"""
+    [out:json];
+    (
+        node["amenity"="hospital"](around:{radius},{latitude},{longitude});
+        way["amenity"="hospital"](around:{radius},{latitude},{longitude});
+        relation["amenity"="hospital"](around:{radius},{latitude},{longitude});
+    );
+    out center;
+    """
+    response = requests.get(overpass_url, params={"data": query})
+    data = response.json()
+    hospital_dict = {}
+    count = 0
+    no_hospitals = {"return hospital_dict"}
+    if "elements" in data:
+        hospitals = data["elements"]
+        for hospital in hospitals:
+            if count < 5:  # Limit to the first 5 hospitals
+                if "tags" in hospital:
+                    name = hospital.get("tags", {}).get("name", "N/A")
+                    address = hospital.get("tags", {}).get("addr:full", "N/A")
+                    hospital_info = {
+                        "Address": address
+                    }
+                    hospital_dict[name] = hospital_info
+                    count += 1
+                else:
+                    break 
+        return hospital_dict, len(hospital_dict)
+    else:
+        return no_hospitals
+    
+def get_current_location():
+    try:
+        # Use the 'geocoder' library to automatically detect the device's location
+        location = geocoder.ip('me')
+        if location:
+            latitude = location.latlng[0]
+            longitude = location.latlng[1]
+            return latitude, longitude
+        else:
+            return None
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return None
 
 def per_image_lrp(config: argparse.Namespace) -> None:
     """Test function that plots heatmaps for images placed in the input folder.
@@ -258,16 +348,21 @@ def per_image_lrp(config: argparse.Namespace) -> None:
     model.to(device)
 
     lrp_model = LRPModel(model=model, top_k=config.top_k)
-
+    output = []
     for i, (x, y) in enumerate(data_loader):
         x = x.to(device)
         # y = y.to(device)  # here not used as method is unsupervised.
 
         t0 = time.time()
         r = lrp_model.forward(x)
+        output.append(r)
         print("{time:.2f} FPS".format(time=(1.0 / (time.time() - t0))))
 
-    return r
+    return output
+
+@app.route('/chatbot.html')
+def chatbot():
+    return render_template('streamlit_template.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

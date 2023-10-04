@@ -14,19 +14,17 @@
 <body>
     <header class="header" >
         <a href="#" class="logo">
-            <img src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}" alt="logo">
+            <img src="{{ url_for('static', filename='Logo.gif') }}" alt="logo">
         </a>
         <nav class="navbar">
             <a href="./">home</a>
-            <a href="./about.html">about</a>
             <a href="./chatbot.html" >chatbot</a>
             <a href="./model">Form</a>
             <a href="./process_image">OCR</a>
             <a href="./about_trees" class="active">Trees</a>
             <a href="./lrp">LRP</a>
-            <a href="./review.html">review</a>
-            <a href="./contact.html">contact</a>
-            <a href="./blog.html">blog</a>
+            <a href="./contact">contact</a>
+            <a href="./blog">blog</a>
         </nav>
     
     </header>
@@ -34,42 +32,58 @@
         <h1 class="heading">Decision Trees </h1> 
     </section>
     <section>
-    <div class="form-container">
-    <h1>Decision Trees</h1>
-    <div>
-        {% for image in image_list %}
-        <img src="{{ url_for('static', filename=image) }}" alt="Decision Tree {{ loop.index }}">
-        {% endfor %}
-    </div>
-    <p class="mt-4 text-center">
-        <a href="/" class="btn btn-primary">Detect</a>
-    </p>
-    </div>
-</section>
-<section class="footer">
-    <div class="search">
-        <input type="text" class="search-input" placeholder="Search">
-        <button class="btn btn-primary">search</button>
-    </div>
-    <div class="share">
-        <a href="#" class="fab fa-linkedin"></a>
-        <a href="#" class="fab fa-github"></a>
-    </div>
-    <div class="links">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#chatbot">chatbot</a>
-        <a href="#model">model</a>
-        <a href="#review">review</a>
-        <a href="#contact">contact</a>
-        <a href="#blog">blog</a>
-    </div>
-    <div class="credit">
-        creaated by <span>Nizami Sevindi</span> | all rights reserved!
-    </div>
-</section>
-<!-- -------------------------------------------FOOTER SECTION -->
+        <div class="form-container3">
+            <h1 class="form-tag">Decision Trees</h1>
+            <div class="image-slider">
+                <div class="image">
+                    <img src="static/decision_tree_1.png" alt="Image 1">
+                </div>
+                <div class="image">
+                    <img src="static/decision_tree_2.png" alt="Image 2">
+                </div>
+                <div class="image">
+                    <img src="static/decision_tree_3.png" alt="Image 3">
+                </div>
+                <div class="image">
+                    <img src="static/decision_tree_4.png" alt="Image 4">
+                </div>
+                <div class="image">
+                    <img src="static/decision_tree_5.png" alt="Image 5">
+                </div>
+                <div class="image">
+                    <img src="static/decision_tree_6.png" alt="Image 6">
+                </div>
+                <div class="image">
+                    <img src="static/decision_tree_7.png" alt="Image 7">
+                </div>
+                <div class="image">
+                    <img src="static/decision_tree_8.png" alt="Image 8">
+                </div>
+                <div class="image">
+                    <img src="static/decision_tree_9.png" alt="Image 9">
+                </div>
+            </div>
+        </div>
+        <p class="mt-4 text-center">
+            <a href="/" class="btn btn-primary">Detect</a>
+        </p>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn btn-primary">search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+        </div>
+        <div class="credit">
+            creaated by <span>Aryan Kamani, Athul Srinivas, Daksh Agiwal</span> | all rights reserved!
+        </div>
+    </section>
 
-<script src="./script.js"></script>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

@@ -13,44 +13,56 @@
 <body> <!-- Change background color to blue-100 -->
     <header class="header" >
         <a href="#" class="logo">
-            <img src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}" alt="logo">
+            <img src="{{ url_for('static', filename='Logo.gif') }}" alt="logo">
         </a>
         <nav class="navbar">
             <a href="./">home</a>
-            <a href="./about.html">about</a>
             <a href="./chatbot.html" >chatbot</a>
             <a href="./model">Form</a>
             <a href="./process_image">OCR</a>
             <a href="./about_trees">Trees</a>
             <a href="./lrp"  class="active">LRP</a>
-            <a href="./review.html">review</a>
-            <a href="./contact.html">contact</a>
-            <a href="./blog.html">blog</a>
+            <a href="./contact">contact</a>
+            <a href="./blog">blog</a>
         </nav>
     
     </header>
-   <div class="form-container">
-       <h1 class="text-4xl font-bold text-center mb-8">Image Processing</h1>
-       <form class="flex justify-center" method="POST" enctype="multipart/form-data" action="/upload">
-           <input class="p-2 border border-gray-300 rounded-lg" type="file" name="file">
-           <button class="ml-4 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" type="submit">Upload</button>
-       </form>
-
-       <h2 class="text-2xl font-semibold mt-8">Output Images</h2>
-
-       {% if images %}
-           <ul class="grid grid-cols-2 gap-4 mt-4">
-               {% for image in images %}
-                   <li>
-                       <img class="w-full h-auto rounded-lg" src="{{ image }}" alt="Output Image">
-                   </li>
-               {% endfor %}
-           </ul>
-       {% else %}
-           <p class="mt-4 text-gray-600">No output images available.</p>
-       {% endif %}
-   </div>
-   <section class="footer">
+    <section class="box-container-LRP">
+        <div class="form-container-LRP text-center">
+            <h1 class="white-text">Layer Wise Relevance Propagation</h1>
+            <form method="POST" enctype="multipart/form-data" action="/upload">
+                <div>
+                    <!-- Add the 'multiple' attribute to allow multiple image selection -->
+                    <input class="form-control" type="file" name="files[]" multiple>
+                </div>
+                <button class="btn btn-primary" type="submit">Upload</button>
+            </form>
+    
+            {% if images %}
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-wrap">
+                        {% for image in images %}
+                            <div class="mx-2 mb-4">
+                                <div class="output-image-container">
+                                    <img class="img-fluid custom-image-size" src="{{ image }}" alt="Output Image">
+                                    <!-- Add a caption for each image -->
+                                    <p class="image-caption white-text">{{ image }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% else %}
+                <p class="white-text">No output images available.</p>
+            {% endif %}
+        </div>
+    </section>
+    <section>
+        <h1 class="image-caption white-text">True label for left eye : {{ pred_left }}</h1> 
+        <h1 class="image-caption white-text">True label for right eye : {{ pred_right }}</h1>
+        <h1 class="image-caption white-text">Accuracy of the model : 81.3 %</h1>
+    <section>
+<section class="footer">
     <div class="search">
         <input type="text" class="search-input" placeholder="Search">
         <button class="btn btn-primary">search</button>
@@ -59,22 +71,12 @@
         <a href="#" class="fab fa-linkedin"></a>
         <a href="#" class="fab fa-github"></a>
     </div>
-    <div class="links">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#chatbot">chatbot</a>
-        <a href="#model">model</a>
-        <a href="#review">review</a>
-        <a href="#contact">contact</a>
-        <a href="#blog">blog</a>
-    </div>
     <div class="credit">
-        creaated by <span>Nizami Sevindi</span> | all rights reserved!
+        creaated by <span>Aryan Kamani, Athul Srinivas, Daksh Agiwal</span> | all rights reserved!
     </div>
 </section>
-<!-- -------------------------------------------FOOTER SECTION -->
 
-<script src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}"></script>
-
+    
+<script src="./script.js"></script>
 </body>
 </html>

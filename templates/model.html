@@ -15,19 +15,17 @@
     <!-------------------------------------------- HEADER SECTION -->
     <header class="header" >
         <a href="#" class="logo">
-            <img src="{{ url_for('static', filename='generate-a-logo-for-explainable-ai-m87GIC2KCI-watermarked.png') }}" alt="logo">
+            <img src="{{ url_for('static', filename='Logo.gif') }}" alt="logo">
         </a>
         <nav class="navbar">
             <a href="./">home</a>
-            <a href="./about.html">about</a>
             <a href="./chatbot.html" >chatbot</a>
             <a href="./model"  class="active">Form</a>
             <a href="./process_image">OCR</a>
             <a href="./about_trees">Trees</a>
             <a href="./lrp">LRP</a>
-            <a href="./review.html">review</a>
-            <a href="./contact.html">contact</a>
-            <a href="./blog.html">blog</a>
+            <a href="./contact">contact</a>
+            <a href="./blog">blog</a>
         </nav>
     
     </header>
@@ -41,44 +39,33 @@
     <div class="form-container">
         <h1>Enter the values</h1>
         <form method="post">
-            {% for attribute_name in attribute_names %}
-            <div class="form-group">
-                <label for="{{ attribute_name }}">{{ attribute_name }}:</label>
-                <input type="number" step="any" name="{{ attribute_name }}" id="{{ attribute_name }}" class="form-control" required>
+            <div class="grid-form">
+                {% for attribute_name in attribute_names %}
+                <div class="form-group">
+                    <label for="{{ attribute_name }}">{{ attribute_name }}:</label>
+                    <input type="number" step="any" name="{{ attribute_name }}" id="{{ attribute_name }}" class="form-control" required>
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
-
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Detect</button>
             </div>
         </form>
     </div>
 </section>
-
-<!-- -------------------------------------------FOOTER SECTION -->
-    <section class="footer">
-        <div class="search">
-            <input type="text" class="search-input" placeholder="Search">
-            <button class="btn btn-primary">search</button>
-        </div>
-        <div class="share">
-            <a href="#" class="fab fa-linkedin"></a>
-            <a href="#" class="fab fa-github"></a>
-        </div>
-        <div class="links">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#chatbot">chatbot</a>
-            <a href="#model">model</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
-            <a href="#blog">blog</a>
-        </div>
-        <div class="credit">
-            creaated by <span>Nizami Sevindi</span> | all rights reserved!
-        </div>
-    </section>
-    <!-- -------------------------------------------FOOTER SECTION -->
+<section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="btn btn-primary">search</button>
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-github"></a>
+    </div>
+    <div class="credit">
+        creaated by <span>Aryan Kamani, Athul Srinivas, Daksh Agiwal</span> | all rights reserved!
+    </div>
+</section>
 
 <script src="./script.js"></script>
 
