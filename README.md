@@ -23,11 +23,11 @@ To facilitate user-friendly interactions, we have implemented a chatbot. This ch
 ### Getting Started
 1. Clone the repository: 
    ```sh
-   git clone https://github.com/your-username/GEHC-PCC-2023-Explainable-AI.git
+   git clone git@github.com:Athul2609/GEHC-PCC23.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd GEHC-PCC-2023-Explainable-AI
+   cd GEHC-PCC23
    ```
 3. Install dependencies:
    ```sh
@@ -41,8 +41,8 @@ To facilitate user-friendly interactions, we have implemented a chatbot. This ch
 
 ## Contributors
 - [Athul Srinivas](https://github.com/your-username)
-- [Daksh Agiwal](https://github.com/teammate-username)
-- [Arayn Kamani](https://github.com/teammate-username)
+- [Daksh Agiwal](https://github.com/daksh-025)
+- [Aryan Kamani](https://github.com/Kamani1318)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
