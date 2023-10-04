@@ -58,6 +58,7 @@ Our project has taken reference from [PyTorchRelevancePropagation](https://githu
 
 ## Contributing
 
+Please see the Contributing Guide for contributing to our Project.
 
 
 ---
