@@ -1,7 +1,7 @@
 # GEHC PCC 2023 Finals Project - Explainable AI
 
 ## Project Overview
-This repository contains the code and resources for our GEHC PCC 2023 Finals Project on Explainable AI. The project focuses on developing three distinct modules: a model for explaining images, another model for explaining textual data, and a user-friendly chatbot for interactive interactions with our AI models.
+This repository contains the code and resources for our GEHC PCC 2023 Finals Project on Explainable AI. The project focuses on developing three distinct modules: a model for explaining images, another model for explaining textual data, and a user-friendly chatbot for interactive interactions with our AI models. We have integrated all these componenets to our site.
 
 ## Project Ideas
 
@@ -12,12 +12,12 @@ Our first idea revolves around creating a model capable of explaining images. Th
 The second component of our project is dedicated to explaining textual data. This model will generate explanations to make the output of AI algorithms on textual data more interpretable and transparent for users.
 
 ### 3. Interactive Chatbot
-To facilitate user-friendly interactions, we have implemented a chatbot. This chatbot serves as an interface for users to interact with our AI models seamlessly. Users can ask questions, seek explanations, and receive responses in a user-friendly manner.
+To facilitate user-friendly interactions, we have implemented a chatbot. This chatbot serves as an interface for users to interact with our AI models seamlessly. Users can ask questions, seek explanations, and receive responses in a user-friendly manner, to the explanations given by the OCR with Random Forest Model.
 
 ## Usage
 
 ### Prerequisites
-- Python 3.x
+- Python 3.9
 - Required libraries (list them and provide installation commands)
 
 ### Getting Started
@@ -34,25 +34,15 @@ To facilitate user-friendly interactions, we have implemented a chatbot. This ch
    pip install -r requirements.txt
    ```
 
-### Running the Models and Chatbot
-1. **Image Explanation Model:**
+### Running the Site
    ```sh
-   python image_explanation_model.py
-   ```
-   
-2. **Textual Data Explanation Model:**
-   ```sh
-   python textual_explanation_model.py
-   ```
-   
-3. **Chatbot:**
-   ```sh
-   python chatbot.py
+   python app.py
    ```
 
 ## Contributors
-- [Your Name](https://github.com/your-username)
-- [Teammate Name](https://github.com/teammate-username)
+- [Athul Srinivas](https://github.com/your-username)
+- [Daksh Agiwal](https://github.com/teammate-username)
+- [Arayn Kamani](https://github.com/teammate-username)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
