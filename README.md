@@ -53,6 +53,10 @@ To facilitate user-friendly interactions, we have implemented a chatbot. This ch
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
+#References
+Our project has taken reference from [PyTorchRelevancePropagation](https://github.com/kaifishr/PyTorchRelevancePropagation) for the Layer Wise Relavance Propagation Model. Please check it out for further reference.
+
+
 ---
 
 Feel free to customize this README according to your project's specific details and requirements. Good luck with your Explainable AI project! make 
